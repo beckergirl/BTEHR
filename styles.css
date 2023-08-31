@@ -1,0 +1,1196 @@
+/* TIPOGRAFÍAS */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'GFS Didot', serif;
+font-family: 'Raleway', sans-serif; */
+
+/* ESTILOS GENERALES */
+
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+
+ /* para que no se vean las líneas de los enlces */
+ a:link, a:visited, a:active {
+    text-decoration:none;
+}
+ 
+ body{
+     
+     width: 100%;
+     height: auto;/* scroll */
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+ }
+ /* --------------------------------------------------- */
+ /* HEADER */ /* Menú + foto */
+  /* --------------------------------------------------- */
+ header{
+    width: 100%;
+    height: 100vh;
+   /* border: 5px solid rgb(255, 208, 0);  */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+ }
+       .caja_1{/* superior: logo e idioma*/
+        width: 100%;
+        height: 25%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      /*  border: 3px solid rgb(208, 255, 0);  */
+       }
+       .caja1_a{/* LOGO */
+        width: 32%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: end;
+     /*   border: 3px solid rgb(4, 0, 255);  */
+
+    }
+            .logo{
+               width: 60%;
+               margin-left: 20%;
+            }
+                   
+            .caja1_b{/* IDIOMA */
+                width: 68%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                 /* border: 3px solid rgb(17, 255, 0);  */
+            }
+                    .caja_1 p{
+                         color: white;
+                         font-family: 'Raleway', sans-serif; 
+                         margin: 6%;
+                    }
+
+       .caja_2{/* inferior: menú y título */
+        width: 100%;
+        height: 75%;
+       /*  border: 3px solid rgb(255, 0, 153);  */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+       }
+            .menu{
+                width: 32%;
+                height: 100%;
+                /* border: 3px solid rgb(212, 136, 182);  */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+                  .recuadro{
+                    width: 270px;
+                    height: 255px;
+                    margin-top: 3%;
+                    border: 3px solid rgb(255, 255, 255);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: left;
+                  }
+                  .menu h4{
+                    font-family: 'Raleway',thin,sans-serif;
+                    font-weight: 400;
+                    color: white;
+                    font-size: 1.3rem;
+                    margin: 3%;
+                    margin-left: 25%;
+
+                  }
+                  .menu :hover{
+                    /* font-size: 1.6rem; */
+                    font-weight: 900;
+
+                  }
+                  #home{
+                    font-family: 'Raleway',thin,sans-serif;
+                    font-variant: small-caps;
+                    font-weight: 900;
+                    color: white;
+                    font-size: 1.5rem;
+                    margin: 3%;
+                    margin-left: 25%;
+                  }
+                  #h{
+                    font-size: 2rem;
+
+                  }
+    
+            .title{
+                width: 68%;
+                height: 100%;
+               /*  border: 3px solid rgb(10, 235, 156); */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                /* line-height: 70px; */
+            }
+                 .title h1{
+                    font-family: 'Raleway', thin, sans-serif; 
+                    font-size: 6rem;
+                    font-weight: 400;
+                    letter-spacing: 7px;
+                    color: white;
+                    text-decoration: none;
+
+                 }
+                 .title h3{
+                    font-family: 'Raleway', thin, sans-serif; 
+                    font-size: 3.2rem;
+                    font-weight: 300;
+                    letter-spacing: 2px;
+                    color: white;
+                    text-decoration: none;
+                    margin-left: 9%;
+        
+
+                 }
+/* --------------------------------------------------- */
+/* CONTENIDO */
+ /* --------------------------------------------------- */
+ .contenido{
+   border: 8px solid rgb(212, 136, 182);
+
+    display: flex;
+    width: 100%;
+    height: 190vmin;/*  */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }    
+     .encabezado{
+        width: 80%;
+        height: 70%;/*  */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        border: 3px solid rgb(246, 4, 4); 
+     }
+          .encabezado h1{
+            width: 100%;
+            height: 45%;/* 50 */
+            border: 3px solid rgb(136, 212, 201); 
+            color: #000;
+            font-size: 60px;
+            font-family: 'Raleway', thin, sans-serif; 
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+          }
+          .encabezado h2{
+            width: 100%;
+            height: 15%;
+            border: 3px solid rgb(149, 212, 136);
+            color: #000;
+            font-size: 45px;
+            font-family: 'Raleway', thin, sans-serif; 
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+
+          }
+          .encabezado h4{
+            width: 90%;
+            height: 40%;/* 35 */
+            /* border: 3px solid rgb(166, 136, 212);  */
+            font-family: 'Raleway', thin, sans-serif; 
+            color: #000;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            display: flex;
+            align-items: center;
+           
+          }
+          .linea{
+            width: 80%;
+            /* height: 1px; */
+            border: 2px solid rgb(0, 0, 0);
+          }
+
+    .segundo_encabezado{
+        width: 80%;
+        height: 70%;
+        display: flex;
+        justify-content: top;
+        flex-direction: column;
+         align-items: center;
+         border: 3px solid rgb(242, 0, 255); 
+    }
+    .segundo_encabezado h1{
+        /* border: 3px solid rgb(222, 237, 192); */
+        width: 100%;
+        height: 40%;
+        color: #000;
+        font-size: 35px;/* 40 */
+        font-family: 'Raleway', thin, sans-serif; 
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+    }
+        .caja{
+            border: 3px solid rgb(0, 0, 0);
+            width: 100%;
+            height: 40%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            /* align-items: center; */
+        }
+            .caja_texto{
+                border: 3px solid rgb(231, 12, 213);
+                width: 33%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: left;
+                align-items: center;
+
+            }/* ME QUEDO AQUI PARA EL RESPONSIVE QUE GUARDE PROPORCION  */
+                .caja_texto h1{
+                    /* width: 80%; */
+                    height: 40%;
+                    border: 3px solid rgb(249, 6, 6);
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 25px;
+                    font-family: 'Raleway', thin, sans-serif; 
+                    font-style: normal;
+                    font-weight: 700;
+                }
+                .caja_texto p{
+                    width: 80%;
+                    height: 60%;
+                    border: 3px solid rgb(127, 6, 249); 
+                    display: flex;
+                  /*   align-items: center; */
+                    font-family: 'Raleway', thin, sans-serif; 
+                    color: #000;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+ /* --------------------------------------------------- */
+/* FOOTER */ /* REDES SOCIALES, ANAGRAMA & COPY */
+ /* --------------------------------------------------- */
+footer{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  /*   border: 3px solid rgb(192, 237, 224); */
+}
+    .redes_sociales{
+        width: 80%;
+        height: 25%;
+        /* border: 3px solid rgb(235, 192, 237);  */
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        margin-top: 1%;
+    }
+        .linkedin{
+            width: 5%;
+            background-image: url(linkedin_logo.png);
+            background-repeat: no-repeat;
+            background-size: 87%; 
+
+        }
+        .twitter{
+            width: 5%;
+            background-image: url(twitter_logo.png);
+            background-repeat: no-repeat;
+            background-size: 87%;
+        }
+    .anagrama{
+        width: 80%;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      /*   border: 3px solid rgb(169, 15, 177); */
+    }
+       #b{
+        height: 90%;
+       }
+    .copys{
+        width: 80%;
+        height: 15%;
+        /* border: 3px solid rgb(26, 139, 205); */
+        color: #000;
+        font-family: 'Raleway', thin, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    #versalita{
+        font-size: 17px;
+        font-weight: 500;
+
+    }
+/* ------------------------------------------------------------------------- */
+    /* RESPONSIVE WEB DESIGN */
+/* ------------------------------------------------------------------------- */
+/* ipad pro 1024/1366 */
+
+    @media(max-width:1080px){/* AUTO AQUÍ */
+        body{
+
+            height: auto;/* scroll */
+
+        }
+        header{
+           height: 100vh;
+           /* border: 10px solid rgb(255, 208, 0); */ 
+           background-repeat:repeat;
+           background-position: center;
+           background-size:auto 100%;
+         
+         }
+                    .caja1_a{/* LOGO */
+                        width: 32%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: end;
+                       /*  border: 3px solid rgb(4, 0, 255); */
+        
+                    }
+                            .logo{
+                               width: 60%;
+      
+                            }
+                           
+                     .caja_1 p{
+                            margin: 5%;
+                            }
+
+                          .recuadro{
+                            width: 250px;
+                            height: 235px;
+                          }
+                          .menu h4{
+                            font-size: 1rem;
+                            margin: 3%;
+                            margin-left: 25%;
+        
+                          }
+                          #home{
+                            font-size: 1.3rem;
+                            margin: 3%;
+                            margin-left: 25%;
+                          }
+                          #h{ /* versalita */
+                            font-size: 1.6rem;
+                          }
+                         .title h1{
+                            font-size: 5rem;
+        
+                         }
+                         .title h3{
+                            font-size: 3rem;
+                         }
+            /* --------------------- */
+                    
+                                    .encabezado h1{
+                                      height: 40%;
+                                      /* border: 10px solid rgb(136, 212, 201);  */
+                                      font-size: 50px;
+                            
+                          
+                                    }
+                                    .encabezado h2{
+                                
+                                      height: 15%;
+                                     /*  border: 10px solid rgb(149, 212, 136);  */
+                                  
+                                      font-size: 44px;
+                          
+                                    }
+                                    .encabezado h4{
+                                      height: 35%;
+                                      /* border: 10px solid rgb(166, 136, 212); */
+                                      font-size: 22px;
+                                     
+                                    }
+                              .segundo_encabezado h1{
+                                  font-size: 35px;
+                                 /*  border: 10px solid rgb(166, 136, 212) */
+                            
+                              }
+                                          .caja_texto h1{
+                                              font-size: 25px;
+                        
+                                          }
+                                          .caja_texto p{
+                                              font-size: 20px;
+  
+    }
+  }    
+    /* -------------- */
+    @media(max-width:912px){
+      header{
+        height: 100vh;
+        /* border: 10px solid rgb(255, 208, 0); */ 
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size:100%;
+      
+      
+      }
+    }
+ @media(max-width:900px){
+  header{
+    height: 100vh;
+    /* border: 10px solid rgb(255, 208, 0); */ 
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+  
+  
+  }
+  .caja_1{/* superior: logo e idioma*/
+    height: 30%;
+
+   }
+        .caja1_a{/* LOGO */
+            width: 45%;
+        
+
+        }
+                .logo{
+                   width: 50%;
+            
+                }
+               
+        .caja1_b{/* IDIOMA */
+            width: 55%;
+            height: 100%;
+        }
+        .caja_2{/* inferior: menú y título */
+          width: 100%;
+          height: 75%;
+      
+         }
+         /*  */
+         .menu{
+          width: 40%;
+
+      }
+  
+              .recuadro{
+                  width: 210px;
+                  height: 225px;
+              }
+              .title{
+                  width: 60%;
+                  height: 100%;
+              }
+                    .title h1{
+                      font-size: 3.7rem;
+  
+                   }
+                   .title h3{
+                      font-size: 2.6rem;
+                   }
+
+/* -------------------------------- */
+                   .encabezado h1{
+                    height: 43%;
+                   /*  border: 10px solid rgb(136, 212, 201); */
+                    font-size: 45px;
+          
+        
+                  }
+                  .encabezado h2{
+              
+                    height: 12%;
+                   /*  border: 10px solid rgb(149, 212, 136);  */
+                
+                    font-size: 40px;
+        
+                  }
+                  .encabezado h4{
+                    height: 35%;
+                    /* border: 10px solid rgb(166, 136, 212);  */
+                    font-size: 20px;
+                   
+                  }
+                  .segundo_encabezado h1{
+                    font-size: 32px;
+
+
+                  }
+                  .caja_texto h1{
+                    font-size: 22px;
+
+                }
+                .caja_texto p{
+                    font-size: 18px;
+         
+                }
+                    
+}  
+@media(max-width:800px){
+  header{
+    height: 100vh;
+    /* border: 10px solid rgb(255, 208, 0); */ 
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 100%;
+  
+  
+  }
+  .recuadro{
+    width: 190px;
+    height: 190px;
+  }
+.title{
+
+width: 60%;
+height: 100%;
+}
+  .title h1{
+    font-size: 3rem;
+
+ }
+ .title h3{
+    font-size: 2rem;
+ }
+ /* -------------------------------- */
+ .encabezado h1{
+  height: 40%;
+ /*  border: 10px solid rgb(136, 212, 201); */
+  font-size: 40px;
+
+
+}
+.encabezado h2{
+
+  height: 12%;
+ /*  border: 10px solid rgb(149, 212, 136);  */
+
+  font-size: 35px;
+
+}
+.encabezado h4{
+  height: 40%;
+  /* border: 10px solid rgb(166, 136, 212);  */
+  font-size: 18px;
+ 
+}
+.segundo_encabezado h1{
+  font-size: 30px;
+
+
+}
+.caja_texto h1{
+  font-size: 20px;
+
+}
+.caja_texto p{
+  font-size: 16px;
+
+}
+  
+}
+@media(max-width:769px){
+
+  header{
+    height: 100vh;
+    /* border: 10px solid rgb(255, 208, 0); */ 
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+  
+  
+  }
+
+}
+@media(max-width:750px){
+  body{
+    height: auto;
+  }
+  header{
+    height: 100vh;
+    /* border: 10px solid rgb(255, 208, 0); */ 
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 100%;
+  
+  
+  }
+    /* menu */
+    .recuadro{
+      width: 200px;
+      height: 200px;
+      margin-top: 3%;
+    }
+    .menu h4{
+      font-family: 'Raleway',thin,sans-serif;
+      font-weight: 400;
+      color: white;
+      font-size: 1rem;
+      margin: 3%;
+      margin-left: 22%;
+
+    }
+    #home{
+      font-size: 1rem;
+      margin: 3%;
+      margin-left: 22%;
+    }
+    #h{
+
+      font-size: 1.4rem;
+
+    }
+  
+  .caja_texto{
+    /* border: 3px solid rgb(231, 12, 213);  */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .caja_texto h1{
+
+    height: 30%;
+   /*  border: 3px solid rgb(249, 6, 6); */
+ 
+}
+.caja_texto p{
+
+    height: 60%;
+    /* border: 3px solid rgb(127, 6, 249);  */
+}
+footer{
+  height: 22vh;
+
+/*   border: 3px solid rgb(192, 237, 224); */
+}
+
+}
+@media(max-width:700px){
+  body{
+    height: auto;
+  }
+  header{
+    height: 100vh;
+    /* border: 10px solid rgb(255, 208, 0); */ 
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 100%;
+  
+  
+  }
+  .caja_texto h1{
+    font-size: 18px;
+    font-weight: bolder;
+  
+  }
+  footer{
+    height: 20vh;
+
+  /*   border: 3px solid rgb(192, 237, 224); */
+}
+.redes_sociales{
+  width: 80%;
+  height: 35%;
+ 
+}
+.linkedin{
+  width: 4%;
+  background-size: 85%; 
+
+}
+.twitter{
+  width: 4%;
+  background-size: 85%;
+}
+.anagrama{
+  height: 55%;
+}
+ 
+  
+}
+  @media(max-width:664px){
+    body{
+      height: auto;
+    }
+    header{
+      height: 100vh;
+      /* border: 10px solid rgb(255, 208, 0); */ 
+      background-repeat:no-repeat;
+      background-position: center;
+      background-size: auto 100%;
+    
+    
+    }
+  
+    .title h1{
+      font-size: 2.5rem;
+    }
+    .title h3{
+      font-size: 1.6rem;
+    }
+    /* menu */
+        .recuadro{
+          width: 200px;
+          height: 180px;
+          margin-top: 3%;
+          border: 3px solid rgb(255, 255, 255);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: left;
+        }
+        .menu h4{
+          font-family: 'Raleway',thin,sans-serif;
+          font-weight: 400;
+          color: white;
+          font-size: 1rem;
+          margin: 2%;
+          margin-left: 20%;
+
+        }
+        #home{
+          font-size: 1rem;
+          margin: 2%;
+          margin-left: 20%;
+        }
+        #h{
+
+          font-size: 1.4rem;
+
+        }
+        .encabezado h1{
+          height: 40%;
+         /*  border: 10px solid rgb(136, 212, 201); */
+          font-size: 32px;
+        
+        
+        }
+        .encabezado h2{
+        
+          height: 12%;
+          font-size: 30px;
+        
+        }
+        .encabezado h4{
+          height: 40%;
+          /* border: 10px solid rgb(166, 136, 212);  */
+          font-size: 17px;
+         
+        }
+        .segundo_encabezado h1{
+          font-size: 27px;
+        
+        
+        }
+        .caja_texto h1{
+
+          height: 25%;
+          width: 90%;
+         /*  border: 3px solid rgb(249, 6, 6); */
+       
+      }
+      .caja_texto p{
+      
+          height: 65%;
+          width: 90%;
+         /*  border: 3px solid rgb(127, 6, 249);  */
+      }
+        .caja_texto h1{
+          font-size: 18px;
+        
+        }
+        .caja_texto p{
+          font-size: 15px;
+        
+        }
+  
+        #b{
+          height: 100%;
+         }
+    .copys{
+        font-size: 10px;
+
+    }
+    #versalita{
+        font-size: 15px;
+
+    }
+  
+      }
+/* --------- */
+@media(max-width:640px){
+  body{
+    height: auto;
+  }
+  header{
+    height: 100vh;
+    /* border: 10px solid rgb(255, 208, 0); */ 
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+  
+  
+  }
+
+  .title h1{
+    font-size: 2.5rem;
+  }
+  .title h3{
+    font-size: 1.6rem;
+  }
+  /* menu */
+      .recuadro{
+        width: 200px;
+        height: 180px;
+        margin-top: 3%;
+        border: 3px solid rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+      }
+      .menu h4{
+        font-family: 'Raleway',thin,sans-serif;
+        font-weight: 400;
+        color: white;
+        font-size: 1rem;
+        margin: 2%;
+        margin-left: 20%;
+
+      }
+      #home{
+        font-size: 1rem;
+        margin: 2%;
+        margin-left: 20%;
+      }
+      #h{
+
+        font-size: 1.4rem;
+
+      }
+      .encabezado h1{
+        height: 40%;
+       /*  border: 10px solid rgb(136, 212, 201); */
+        font-size: 32px;
+      
+      
+      }
+      .encabezado h2{
+      
+        height: 12%;
+        font-size: 30px;
+      
+      }
+      .encabezado h4{
+        height: 40%;
+        /* border: 10px solid rgb(166, 136, 212);  */
+        font-size: 17px;
+       
+      }
+      .segundo_encabezado h1{
+        font-size: 27px;
+      
+      
+      }
+      .caja{
+/* cambio a colum para adaptarlo mejor */
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+        .caja_texto{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: center;
+           /*  border: 2px solid rgb(166, 136, 212); */
+
+        }
+            .caja_texto h1{
+                height: 46%;
+                font-size: 20px;
+            
+            }
+            .caja_texto p{
+                height: 54%;
+                font-size: 15px;
+            
+            }
+
+
+    }
+    /* --------- */
+@media(max-width:580px){
+  body{
+    height: auto;
+  }
+  header{
+    height: 100vh;
+    /* border: 10px solid rgb(255, 208, 0); */ 
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+  
+  
+  }
+      .caja1_b p{
+        font-size: 12px;
+      }
+      .recuadro{
+        width: 155px;
+        height: 170px;
+      }
+      .menu h4{
+        font-family: 'Raleway',thin,sans-serif;
+        font-weight: 400;
+        color: white;
+        font-size: 15px;
+        margin: 2%;
+        margin-left: 15%;
+
+      }
+      #home{
+        font-size: 15px;
+        margin: 2%;
+        margin-left: 15%;
+      }
+      #h{
+
+        font-size: 19px;
+
+      }
+      .encabezado h1{
+        height: 40%;
+       /*  border: 10px solid rgb(136, 212, 201); */
+        font-size: 27px;
+      
+      
+      }
+      .encabezado h2{
+      
+        height: 12%;
+        font-size: 25px;
+      
+      }
+      .encabezado h4{
+        height: 40%;
+        /* border: 10px solid rgb(166, 136, 212);  */
+        font-size: 14px;
+       
+      }
+      .segundo_encabezado h1{
+        font-size: 22px;
+      
+      
+      }
+ 
+      .caja_texto h1{
+        font-size: 16px;
+        font-weight: bolder;
+      
+      }
+      .caja_texto p{
+        font-size: 13px;
+      
+      }
+
+    }
+    /* ------------------------ */
+    @media(max-width:556px){
+
+      body{
+        height: auto;
+      }
+      header{
+        height: 100vh;
+        /* border: 10px solid rgb(255, 208, 0); */ 
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: auto 100%;
+      
+      
+      }
+    
+          .recuadro{
+            width: 150px;
+            height: 160px;
+          }
+          .menu h4{
+            font-size: 13px;
+            margin: 2%;
+            margin-left: 15%;
+    
+          }
+          #home{
+            font-size: 13px;
+            margin: 2%;
+            margin-left: 15%;
+          }
+          #h{
+    
+            font-size: 17px;
+    
+          }
+          .encabezado h1{
+            height: 40%;
+           /*  border: 10px solid rgb(136, 212, 201); */
+            font-size: 22px;
+          
+          
+          }
+          .encabezado h2{
+          
+            height: 12%;
+            font-size: 20px;
+          
+          }
+          .encabezado h4{
+            height: 40%;
+            /* border: 10px solid rgb(166, 136, 212);  */
+            font-size: 14px;
+           
+          }
+          .segundo_encabezado h1{
+            font-size: 22px;
+          
+          
+          }
+     
+          .caja_texto h1{
+            font-size: 16px;
+            font-weight: bolder;
+          
+          }
+          .caja_texto p{
+            font-size: 13px;
+          
+          }
+    
+        }
+/* --------- */
+@media(max-width:535px){
+  header{
+    background-image: url(BALLENA+CAPA.movil.jpeg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 100%;
+
+ }
+
+                    .caja_1 p{
+                         font-size: 13px;
+                         margin: 2%;
+                    }
+
+       .caja_2{/* inferior: menú y título */
+        width: 100%;
+        height: 75%;
+       /*  border: 3px solid rgb(255, 0, 153);  */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+            .menu{
+                width: 90%;
+                height: 35%;
+              /*  border: 3px solid rgb(212, 136, 182);  */
+                display: flex;
+                justify-content: center;
+                align-items: top;
+
+
+            }
+                  .recuadro{
+                    width: 50%;
+                    height: 100%;
+                    border: 3px solid rgb(255, 255, 255);
+                    background-color:#000;
+               
+                  }
+                  .menu h4{
+                    font-size: 17px;
+                    margin: 2.5%;
+                    margin-left: 20%;
+
+                  }
+                  #home{
+                    font-size: 17px;
+                    margin: 2.5%;
+                    margin-left: 20%;
+                  }
+                  #h{
+                    font-size: 21px;
+
+                  }
+    
+            .title{
+                width: 90%;
+                height: 60%;
+              /*   border: 3px solid rgb(10, 235, 156); */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+                 .title h1{
+                    font-size: 3.7rem;
+                   
+
+                 }
+                 .title h3{
+  
+                    font-size: 2.5rem;
+
+                 }
+}
