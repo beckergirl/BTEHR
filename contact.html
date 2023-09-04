@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no" /><!-- viewport  para el responsive-->
+    <title>BTEHR | CONTACT</title>
+    <link rel="icon" href="ANAGRAMA negro.png" sizes="16x16 32x32" type="image/png">
+    <link rel="stylesheet" type="text/css" href="styles.pages.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles.pages_responsive.css" media="screen" />
+    <!-- TIPOGRAFÍAS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- cabecera / portada: menú + foto -->
+    <header id="contacto">
+        <div class="caja_1">
+
+            <div class="caja1_a">
+                <a href=""><img class="logo" src="LOGO BTEHR blanco.png"></a>
+            </div>
+            <div class="caja1_b">
+                <p>ES | <b>EN</b></p><!-- aquí mejor meter un png ENLACES -->
+            </div>
+
+        </div><!-- cierra CAJA_1 -->
+        <div class="caja_2">
+            <div class="menu"><!-- caja MENÚ-->
+                <div class="recuadro">
+                    <a href="home.html"><h4 id="">HOME</h4></a>
+                    <a href="about.html"><h4 id="">ABOUT US</h4></a>
+                    <a href="solutions.html"><h4 id="solutions">SOLUTIONS</h4></a>
+                    <a><p id="versalitas"><span id="h">C</span>ONTACT</p></a><!-- versalitas -->
+                    <a href="documents.html"><h4 id="documents">DOCUMENTS</h4></a>
+                </div>
+            </div>
+            <div class="title">
+                <h3 id="c">CONTACT</h3>
+                <h1 id="frase">HOW CAN WE</h1>
+                <h1 id="frase">ASSIST YOU?</h1>
+            </div>
+        </div><!-- cierra CAJA_2 -->
+    </header>
+    <!-- SEGUNDO CONTENEDOR / INFORMACIÓN -->
+    <div class="contenido_contact">
+         <div class="informacion_contacto">
+              <h2>WE ARE LOOKING FORWARD TO HEARING FROM YOU AND LEARNING ABOUT YOUR NEEDS</h2>
+              <h4>We help companies understand the technical details and identify areas where blockchain use cases can be applied. Once the use cases are identified, we develop and implement internal solutions and leverage our network of
+                 strategic partners to achieve operational efficiency.<br>
+              <br>Our services include:</br>
+              <br>
+                <li>Strategic planning.</li>
+                <li>Consortium strategy.</li>
+                <li>Platform design.</li>
+                <li>Use case development and implementation strategy.</li>
+                <li>Blockchain engineering.</li>
+                <li>Managed blockchain services.</li>
+            </h4> 
+
+        </div><!-- cierra ENCABEZADO -->
+        <!-- <div class="linea"></div> -->
+        <div class="segundo_encabezado_contacto">
+            <div class="info">
+                <h4>BTEHR</h4>
+                <p>Adress</p>
+                <p>Phone number</p>
+                <p>Email address</p>
+            </div>
+            <!-- formulario -->
+            <form id="form">
+                    <div class="field">
+                      <label for="from_name" id="campo">MR / MS</label>
+                      <input type="text" name="from_name" id="from_name">
+                    </div>
+                    <!--  --><!-- <div class="field">
+                      <label for="to_name">to_name</label>
+                      <input type="text" name="to_name" id="to_name">
+                    </div> -->
+                    <div class="field">
+                      <label for="co_name" id="campo">CO. NAME</label>
+                      <input type="text" name="co_name" id="co_name">
+                      
+                    </div>
+                    <div class="field">
+                      <label for="email" id="campo">EMAIL</label>
+                      <input type="text" name="email" id="email">
+                    </div>
+                    <div class="field">
+                      <label for="phone" id="campo">PHONE</label>
+                      <input type="text" name="phone" id="phone">
+                    </div>
+                    <div class="field">
+                      <label for="message" id="campo">MESSAGE</label>
+                      <input type="text" name="message" id="message">
+                    </div>
+                    <!--  --><!-- <div class="field">
+                      <label for="reply_to">reply_to</label>
+                      <input type="text" name="reply_to" id="reply_to">
+                    </div>  -->
+                  
+                    <input type="submit" id="button" value="SUBMIT MESSAGE" >
+              </form>
+                     
+<!-- funciona correctamente! -->
+                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+                <script src="formulario.js"></script>
+
+                <script type="text/javascript">
+                    emailjs.init('bKvQzdEYpdg8I6AwX')
+                </script>
+
+      </div><!-- cierra SEGUNDO ENCABEZADO_contact -->
+    </div><!-- cierra contenido_contact -->
+    <footer>
+      <div class="redes_sociales">
+
+        <a class="linkedin" href="#">
+           <img src="linkedin_logo.png">
+        </a>
+        <a class="twitter" href="#">
+           <img src="twitter_logo.png">
+        </a>
+
+      </div>
+      <div class="anagrama">
+
+         <a id="b" href="home.html"><img id="b"src="ANAGRAMA negro.png"></a>
+
+      </div>
+      <div class="copys">
+         <p>© 2023<span id="versalita"> B</span>ETHR. All Rights Reserved.</p>
+        <!--  <p>All Rights Reserved</p> -->
+      </div>
+
+   </footer>
+
+</body>
+
+</html>

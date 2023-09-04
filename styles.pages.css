@@ -1,0 +1,1340 @@
+/* TIPOGRAFÍAS */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'GFS Didot', serif;
+font-family: 'Raleway', sans-serif; */
+
+/* ESTILOS GENERALES */
+
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+
+ /* para que no se vean las líneas de los enlces */
+ a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+ body{
+     
+     width: 100%;
+     height: auto;/* scroll */
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+ }
+ /* -----LANDING PAGE------- */
+
+ #landingpage{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid rgb(255, 208, 0); */
+
+ }
+       .logotipo_btehr{
+        width: 100%;
+        height: 50%;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+       /*  border: 5px solid rgb(0, 183, 255); */
+       }
+               .logotipo_btehr img{
+                   width: 15%;
+               }
+       .blockchain{
+        width: auto;
+        height: 40%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        /*  border: 5px solid rgb(224, 53, 237);  */
+       }
+               .blockchain h1{
+                   font-family: 'Raleway', thin, sans-serif; 
+                   font-size: 3rem;
+                   font-weight: 400;
+                   color: white;
+              }
+                .blockchain h3{
+                   font-family: 'Raleway', thin, sans-serif; 
+                   font-weight: 400;
+                   font-size: 1rem;
+                   color: white;
+                   margin: 2%;
+                   /* line-height: 35px; */
+                 /*   margin-left: 12%; */
+              }
+       .eleccion_idioma{
+        width: 100%;
+        height: 50%;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       /*  border: 5px solid rgb(123, 0, 255); */
+       }
+             .eleccion_idioma a{
+                font-family: 'Raleway', thin, sans-serif; 
+                font-size: 18px;
+                font-weight: 500;
+                color: white;
+                margin: 2%;
+
+             }
+             .eleccion_idioma a:hover{
+              font-weight: 700;
+              color: rgb(20, 97, 109);
+           }
+
+/* ----- CIERRA ESTILOS LANDING PAGE------- */
+ /* --------------------------------------------------- */
+ /* HEADER */ /* Menú + foto */
+  /* --------------------------------------------------- */
+ header{
+    width: 100%;
+    height: 100vh;
+   /*  border: 5px solid rgb(255, 208, 0);   */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+
+ }
+
+ #contacto{
+    background-image: url(contact.png);/* CONTACT */
+    background-size: cover;
+   
+}
+#sobre_nosotros{
+  background-image: url(about_us.png);/* ABOUT US */
+  background-size: cover;
+}
+#soluciones{
+  background-image: url(solutions.png);/* SOLUTIONS */
+  background-size: cover;
+}
+#documentacion{
+  background-image: url(documents.png);/* DOCUMENTS */
+  background-size: cover;
+}
+       .caja_1{/* superior: logo e idioma*/
+        width: 100%;
+        height: 25%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      /*  border: 3px solid rgb(208, 255, 0);  */
+       }
+            .caja1_a{/* LOGO */
+                width: 32%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: end;
+                /* border: 3px solid rgb(4, 0, 255); */
+
+            }
+                    .logo{
+                       width: 60%;
+                       margin-left: 20%;
+                    }
+                   
+            .caja1_b{/* IDIOMA */
+                width: 68%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                 /* border: 3px solid rgb(17, 255, 0);  */
+            }
+                    .caja_1 p{
+                         color: white;
+                         font-family: 'Raleway', sans-serif; 
+                         margin: 6%;
+                    }
+
+       .caja_2{/* inferior: menú y título */
+        width: 100%;
+        height: 75%;
+       /*  border: 3px solid rgb(255, 0, 153);  */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+       }
+            .menu{
+                width: 32%;
+                height: 100%;
+                /* border: 3px solid rgb(212, 136, 182); */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+                  .recuadro{
+                    width: 270px;
+                    height: 255px;
+                    margin-top: 3%;
+                    border: 3px solid rgb(255, 255, 255);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: left;
+                  }
+                  .menu h4{
+                    font-family: 'Raleway',thin,sans-serif;
+                    font-weight: 400;
+                    color: white;
+                    font-size: 1.3rem;
+                    margin: 3%;
+                    margin-left: 25%;
+
+                  }
+                  .menu :hover{
+                    /* font-size: 1.6rem; */
+                    font-weight: 900;
+
+                  }
+                  #versalitas{ /* el apartado en el que estamos del menú */
+                    font-family: 'Raleway',thin,sans-serif;
+                    font-variant: small-caps;
+                    font-weight: 700;
+                    color: white;
+                    font-size: 1.5rem;
+                    margin: 3%;
+                    margin-left: 25%;
+                  }
+                  #h{
+                    font-size: 2rem;
+
+                  }
+    
+            .title{
+                width: 68%;
+                height: 100%;
+               /*   border: 3px solid rgb(10, 235, 156); */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+                 .title h1{
+                    font-family: 'Raleway', thin, sans-serif; 
+                    font-size: 7rem;
+                    font-weight: 400;
+                    color: white;
+                    text-decoration: none;
+                    line-height: 95px;
+
+                 }
+                 .title h3{
+                    font-family: 'Raleway', thin, sans-serif; 
+                    font-size: 3.2rem;
+                    font-weight: 300;
+                    letter-spacing: 2px;
+                    color: white;
+                    text-decoration: none;
+                 }
+                 #us{
+                  font-family: 'Raleway', thin, sans-serif; 
+                  font-style: oblique;
+                    font-size: 7rem;
+                    font-weight: 400;
+                    color: white;
+
+                 }
+/* --------------------------------------------------- */
+/* CONTENIDO */
+ /* --------------------------------------------------- */
+ /* CONTACT */
+ .contenido_contact{
+   /*  border: 8px solid rgb(212, 136, 182);  */
+    display: flex;
+    width: 100%;
+    height: 110vmax;/*  */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }    
+ /* ----------------------ALGO ESTÁ TIRANDO   */
+     .informacion_contacto{
+        width: 80%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        /* border: 3px solid rgb(47, 6, 230); */
+        border: none;
+        border-bottom: 5px solid rgb(0, 0, 0);
+     }
+          .informacion_contacto h2{
+            width: 100%;
+            height: 30%;
+            /* border: 3px solid rgb(212, 136, 195); */
+            color: #000;
+            font-size: 40px;
+            font-family: 'Raleway', thin, sans-serif; 
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+
+          }
+          .informacion_contacto h4{
+            width: 100%;
+            height: 70%;
+            /* border: 3px solid rgb(166, 136, 212); */ 
+            font-family: 'Raleway', thin, sans-serif; 
+            color: #000;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            display: flex;
+            flex-direction:column;
+            align-items: left;
+           
+          }
+          .informacion_contacto h4 li{
+            line-height: 35px;
+            /* border: 3px solid rgb(212, 136, 195); */
+            text-align: left;
+          }
+
+    .segundo_encabezado_contacto{
+        width: 80%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      /*   border: 3px solid rgb(242, 0, 255);  */
+        border-bottom: 5px solid rgb(0, 0, 0); 
+    }
+    .info{
+      height: auto; 
+      width: 100%;
+      color: #000;
+      font-size: 16px;
+      font-family: 'Raleway', thin, sans-serif; 
+      font-style: normal;
+      font-weight: 500;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* border: 3px solid rgb(0, 229, 255);   */
+    }
+    .linea{/* QUITAR? (DEJAR LA DE ANTES DEL FOOTER) */
+      width: 80%;
+      /* height: 1px; */
+      border-bottom: 5px solid rgb(0, 0, 0);/* BOTTON */
+    }
+    /* FORMULARIO CONTACT */
+    #form{
+      width: 100%;
+      height: 75%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid rgb(0, 0, 0);
+    }
+    .field {
+      width: 100%;
+      height: 15%;
+      /* border: 3px solid rgb(43, 0, 255); */
+      /* margin-bottom: 10px; */
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    
+    .field label {
+      width: 15%;
+      height: 20%;
+      /* border: 3px solid rgb(94, 255, 0);  */
+      font-family: 'Raleway', thin, sans-serif; 
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      color:black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      /* margin-left: 8%; */
+    }
+    #campo{
+      margin-left: 15%; 
+
+    }
+    
+    .field input {
+      
+      width: 50%;
+      height: 20%;
+      font-size: 20px;
+      text-align: center;
+      border: none;
+      border-bottom: 3px solid black; 
+    
+    }
+ 
+    input[type="submit"] {/* submit message */
+      width: 40%;
+      height: 10%;
+      margin-top: 2%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-weight: 600;
+      align-items: center;
+      /* padding: 6px 30px; */
+      font-size: 28px;
+      font-family: 'Raleway', thin, sans-serif; 
+      font-style: normal;
+      background-color: white;
+      color: black;
+      border: none
+    }
+
+  /* HASTA AQUÍ / CONTACT */
+  /* ABOUT US */
+  .contenido{
+    display: flex;
+    width: 100%;
+    height: 100vmax;/* ABOUT US / SOLUTIONS / DOCUMENTS HASTA TENER CONTENIDO */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+ /* --------------------------------------------------- */
+/* FOOTER */ /* REDES SOCIALES, ANAGRAMA & COPY */
+ /* --------------------------------------------------- */
+ footer{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+/*   border: 3px solid rgb(192, 237, 224); */
+}
+  .redes_sociales{
+      width: 80%;
+      height: 25%;
+     /*  border: 3px solid rgb(235, 192, 237);  */
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      align-items: center;
+  }
+      .linkedin{
+          width: auto;
+          height: 90%;
+
+      }
+            .linkedin img{
+                width: auto;
+                height: 95%;
+            }
+      .twitter{
+        width: auto;
+        height: 90%;
+          
+      }
+             .twitter img{
+                 width: auto;
+                 height: 95%;
+
+              }
+
+  .anagrama{
+      width: 80%;
+      height: 60%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    /*   border: 3px solid rgb(169, 15, 177); */
+  }
+     #b{
+      height: 90%;
+     }
+  .copys{
+      width: 80%;
+      height: 15%;
+      /* border: 3px solid rgb(26, 139, 205); */
+      color: #000;
+      font-family: 'Raleway', thin, sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+  }
+  #versalita{
+      font-size: 17px;
+      font-weight: 500;
+
+  }
+/* ------------------------------------------------------------------------- */
+    /* RESPONSIVE WEB DESIGN */
+/* ------------------------------------------------------------------------- */
+/* ipad pro 1024/1366 */
+
+    @media(max-width:1200px){/* AUTO AQUÍ */
+
+        body{
+
+            height: auto;/* scroll */
+
+        }
+
+}
+@media(max-width:1080px){/* mirar como hice el responsive de home */
+/* dentro de header */
+                    .caja1_a{/* LOGO */
+                        width: 32%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: end;
+                       /*  border: 3px solid rgb(4, 0, 255); */
+        
+                    }
+                            .logo{
+                               width: 60%;
+      
+                            }
+                           
+                     .caja_1 p{
+                            margin: 5%;
+                            }
+
+                          .recuadro{
+                            width: 250px;
+                            height: 235px;
+                          }
+                          .menu h4{
+                            font-size: 1rem;
+                            margin: 3%;
+                            margin-left: 25%;
+        
+                          }
+                          #home{
+                            font-size: 1.3rem;
+                            margin: 3%;
+                            margin-left: 25%;
+                          }
+                          #h{ /* versalita */
+                            font-size: 1.6rem;
+                          }
+                         .title h1{
+                            font-size: 5rem;
+        
+                         }
+                         .title h3{
+                            font-size: 3rem;
+                         }
+  /* CONTACT */
+ .contenido_contact{
+  height: 140vmax;
+
+}    
+   .segundo_encabezado_contacto{
+      width: 80%;
+      height: 50%;
+   }
+        
+       /*  .segundo_encabezado_contacto h2{
+          height: 35%;
+          font-size: 44px;
+        }
+        .segundo_encabezado_contacto h4{
+          height: 65%;
+          font-size: 21px;
+       
+        }
+        .encabezado h4 li{
+          line-height: 34px;
+        } */
+
+  .segundo_encabezado{
+      height: 50%;
+  }
+  .info{
+    height: 15%; 
+    font-size: 14px;
+  }
+  /* FORMULARIO CONTACT */
+  #form{
+
+    height: 85%;
+  }
+  
+  .field label {
+    font-size: 22px;
+
+  }
+  
+  .field input {
+    font-size: 20px;
+  
+  }
+
+  input[type="submit"] {/* submit message */
+    font-size: 28px;
+
+  }
+  /* ------------------ */
+/* CONTACT */
+    
+  }    
+    /* -------------- */
+    @media(max-width:915px){
+/* ----- CIERRA ESTILOS LANDING PAGE------- */
+      header{
+        height: 100vh;
+      
+      }
+      /* CONTACT */
+      .contenido{
+        height: 140vmax;
+      
+      }    
+         .encabezado{
+            width: 80%;
+            height: 50%;
+         }
+              
+              .encabezado h2{
+                height: 30%;
+                font-size: 42px;
+              }
+              .encabezado h4{
+                height: 70%;
+                font-size: 20px;
+             
+              }
+              .encabezado h4 li{/* contact */
+                line-height: 32px;
+              }
+      
+        .segundo_encabezado{
+            height: 50%;
+        }
+        .info{
+          height: 15%; 
+          font-size: 13px;
+        }
+        /* FORMULARIO CONTACT */
+        
+        .field label {
+          font-size: 21px;
+      
+        }
+        
+        .field input {
+          font-size: 19px;
+        
+        }
+      
+        input[type="submit"] {/* submit message */
+          font-size: 27px;
+      
+        }   
+      } 
+    
+ @media(max-width:900px){
+   /* landingpage */
+   .logotipo_btehr img{
+    width: 20%;
+  }
+
+  .caja_1{/* superior: logo e idioma*/
+    height: 30%;
+
+   }
+        .caja1_a{/* LOGO */
+            width: 45%;
+        
+
+        }
+                .logo{
+                   width: 50%;
+            
+                }
+               
+        .caja1_b{/* IDIOMA */
+            width: 55%;
+            height: 100%;
+        }
+        .caja_2{/* inferior: menú y título */
+          width: 100%;
+          height: 75%;
+      
+         }
+         /*  */
+         .menu{
+          width: 40%;
+
+      }
+  
+              .recuadro{
+                  width: 210px;
+                  height: 225px;
+              }
+              .title{
+                  width: 60%;
+                  height: 100%;
+              }
+                    .title h1{
+                      font-size: 3.7rem;
+                      line-height: 75px;
+  
+                   }
+                   .title h3{
+                      font-size: 2.6rem;
+            
+                   }
+
+/* -------------------------------- */
+ /* CONTACT */
+ .contenido_contact{
+  height: 140vmax;
+
+}    
+   .encabezado{
+      width: 80%;
+      height: 50%;
+      /* border: 3px solid rgb(242, 0, 255); */
+   }
+        
+        .encabezado h2{
+          height: 30%;
+          font-size: 40px;
+          /* border: 3px solid rgb(0, 255, 195); */
+        }
+        .encabezado h4{
+          height: 70%;
+          font-size: 19px;
+         /*  border: 3px solid rgb(13, 0, 255); */
+       
+        }
+        .encabezado h4 li{/* contact */
+          line-height: 30px;
+        }
+
+  .segundo_encabezado{
+      height: 50%;
+      /* border: 3px solid rgb(242, 0, 255); */
+  }
+  .info{
+    height: 15%; 
+    font-size: 13px;
+   /*  border: 3px solid rgb(64, 255, 0); */
+
+  }
+  /* FORMULARIO CONTACT */
+
+  .field label {
+    font-size: 20px;
+
+  }
+  
+  .field input {
+    font-size: 18px;
+
+  }
+
+  input[type="submit"] {/* submit message */
+    font-size: 26px;
+
+  }  
+                    
+}  
+@media(max-width:800px){
+
+  .recuadro{/* MENÚ */
+    width: 190px;
+    height: 190px;
+  }
+.title{
+width: 60%;
+height: 100%;
+}
+   .title h1{
+     font-size: 3.2rem;
+      line-height: 70px;
+
+   }
+
+   .title h3{
+      font-size: 2rem;
+    }
+ /* -------------------------------- */
+ /* CONTACT */
+ .contenido_contact{
+  height: 140vmax;
+
+}    
+   .encabezado{
+      width: 80%;
+      height: 50%;
+      /* border: 3px solid rgb(242, 0, 255); */
+   }
+        
+        .encabezado h2{
+          height: 30%;
+          font-size: 35px;
+         /*  border: 3px solid rgb(0, 255, 195); */
+        }
+        .encabezado h4{
+          height: 70%;
+          font-size: 20px;
+         /*  border: 3px solid rgb(13, 0, 255); */
+       
+        }
+        .encabezado h4 li{/* contact */
+          line-height: 25px;
+        }
+
+  .segundo_encabezado{
+      height: 50%;
+      /* border: 3px solid rgb(242, 0, 255);  */
+  }
+  .info{
+    height: 15%; 
+    font-size: 11px;
+   /*  border: 3px solid rgb(64, 255, 0); */
+
+  }
+  /* FORMULARIO CONTACT */
+
+  .field label {
+    font-size: 18px;
+
+  }
+  
+  .field input {
+    font-size: 16px;
+
+  }
+
+  input[type="submit"] {/* submit message */
+    font-size: 24px;
+
+  } 
+}
+
+  
+
+@media(max-width:769px){
+
+  header{
+    height: 100vh;
+    /* border: 10px solid rgb(255, 208, 0); */ 
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+  
+  
+  }
+  
+
+}
+@media(max-width:750px){
+  body{
+    height: auto;
+  }
+  /* landingpage */
+  .logotipo_btehr img{
+    width: 25%;
+  }
+  .blockchain h1{
+  
+    font-size: 1.8rem;
+  }
+  .blockchain h3{
+    font-size: 0.8rem;
+  
+  }
+  .eleccion_idioma a{
+  font-size: 12px;
+  color: white;
+  margin: 2%;
+  
+  }
+  /* ------------- */
+    /* menu */
+    .recuadro{
+      width: 200px;
+      height: 200px;
+      margin-top: 3%;
+    }
+    .menu h4{
+      font-size: 1rem;
+      margin: 3%;
+      margin-left: 22%;
+
+    }
+    #home{
+      font-size: 1rem;
+      margin: 3%;
+      margin-left: 22%;
+    }
+    #h{
+
+      font-size: 1.4rem;
+
+    }
+ /* CONTACT */
+ .contenido_contact{
+  height: 140vmax;
+
+}    
+   .encabezado{
+      width: 80%;
+      height: 50%;
+     /*  border: 3px solid rgb(242, 0, 255); */
+   }
+        
+        .encabezado h2{
+          height: 30%;
+          font-size: 35px;
+          /* border: 3px solid rgb(0, 255, 195); */
+        }
+        .encabezado h4{
+          height: 70%;
+          font-size: 18px;
+          /* border: 3px solid rgb(13, 0, 255); */
+       
+        }
+  /* FORMULARIO CONTACT */
+
+  .field label {
+    font-size: 18px;
+   /*  border: 3px solid rgb(0, 255, 195); */
+    margin-left: 5%;
+    width: 18%;
+
+  }
+  .field input {
+    font-size: 16px;
+    /* border: 3px solid rgb(0, 255, 195); */
+
+  }
+
+  input[type="submit"] {/* submit message */
+    font-size: 23px;
+
+  } 
+
+footer{
+  height: 22vh;
+
+/*   border: 3px solid rgb(192, 237, 224); */
+}
+
+}
+@media(max-width:700px){
+  body{
+    height: auto;
+  }
+/* CONTACT */  
+   .encabezado{
+      width: 80%;
+      height: 50%;
+     /*  border: 3px solid rgb(242, 0, 255); */
+   }
+        
+        .encabezado h2{
+          height: 30%;
+          font-size: 30px;
+          /* border: 3px solid rgb(0, 255, 195); */
+        }
+        .encabezado h4{
+          height: 70%;
+          font-size: 18px;
+          /* border: 3px solid rgb(13, 0, 255); */
+       
+        }
+  
+}
+@media(max-width:680px){
+/* CONTACT */
+.contenido_contact{
+  height: 200vmax;
+
+}   
+   .encabezado{
+      width: 80%;
+      height: 50%;
+      /* border: 3px solid rgb(242, 0, 255); */
+   }
+        
+        .encabezado h2{
+          height: 30%;
+          font-size: 30px;
+          /*  border: 3px solid rgb(0, 255, 195);  */
+        }
+        .encabezado h4{
+          height: 70%;
+          font-size: 16px;
+         /*  border: 3px solid rgb(13, 0, 255); */
+        }
+  }
+  @media(max-width:664px){/* me quedo aqui */
+    body{
+      height: auto;
+    }
+  
+    .title h1{
+      font-size: 3rem;
+      line-height: 65px;
+  
+      }
+    
+    .title h3{
+      font-size: 1.6rem;
+    }
+    /* menu */
+        .recuadro{
+          width: 200px;
+          height: 180px;
+          margin-top: 3%;
+          border: 3px solid rgb(255, 255, 255);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: left;
+        }
+        .menu h4{
+          font-family: 'Raleway',thin,sans-serif;
+          font-weight: 400;
+          color: white;
+          font-size: 1rem;
+          margin: 2%;
+          margin-left: 20%;
+
+        }
+        #home{
+          font-size: 1rem;
+          margin: 2%;
+          margin-left: 20%;
+        }
+        #h{
+
+          font-size: 1.4rem;
+
+        }
+
+      }
+/* --------- */
+@media(max-width:640px){
+  body{
+    height: auto;
+  }
+
+  .title h1{
+    font-size: 2.8rem;
+    line-height: 62px;
+
+    }
+  .title h3{
+    font-size: 1.6rem;
+  }
+  /* menu */
+      .recuadro{
+        width: 200px;
+        height: 180px;
+        margin-top: 3%;
+        border: 3px solid rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+      }
+      .menu h4{
+        font-size: 1rem;
+        margin: 2%;
+        margin-left: 20%;
+
+      }
+      #home{
+        font-size: 1rem;
+        margin: 2%;
+        margin-left: 20%;
+      }
+      #h{
+
+        font-size: 1.4rem;
+
+      }
+      #versalitas {
+      
+        margin-left: 20%;
+        font-size: 1rem;
+    }
+    /* nuevo */
+    footer{
+      height: 12vh;
+    }
+    .copys p{
+      font-size: smaller;
+    }
+
+
+    }
+    /* aquí   ----------------------------------------------------- */
+  
+   .encabezado{
+    width: 80%;
+    height: 55%;
+   /*  border: 3px solid rgb(242, 0, 255); */ 
+ }
+      
+      .encabezado h2{
+        height: 30%;
+        font-size: 30px;
+       /*  border: 3px solid rgb(0, 255, 195); */
+      }
+      .encabezado h4{
+        height: 70%;
+        font-size: 16px;
+ /*         border: 3px solid rgb(13, 0, 255);  */
+     
+      }
+      .encabezado h4 li{/* contact */
+        line-height: 22px;
+      }
+
+.segundo_encabezado{
+    height: 45%;
+    /* border: 3px solid rgb(242, 0, 255);  */
+}
+.info{
+  height: 15%; 
+  font-size: 11px;
+ /*  border: 3px solid rgb(64, 255, 0); */
+
+}
+/* FORMULARIO CONTACT */
+
+.field label {
+  font-size: 18px;
+
+}
+
+.field input {
+  font-size: 16px;
+
+}
+
+input[type="submit"] {/* submit message */
+  font-size: 24px;
+
+} 
+        
+        .encabezado h2{
+          height: 30%;
+          font-size: 28px;
+          /* border: 3px solid rgb(0, 255, 195);   */
+        }
+        .encabezado h4{
+          height: 70%;
+          font-size: 16px;
+        /*   border: 3px solid rgb(13, 0, 255); */ 
+        }
+    /* --------- */
+@media(max-width:580px){
+
+    body{
+      height: auto;
+    }
+   
+        .recuadro{
+          width: 150px;
+          height: 160px;
+        }
+        .menu h4{
+          font-size: 13px;
+          margin: 2%;
+          margin-left: 15%;
+  
+        }
+        #versalitas{
+          margin-left: 15%;
+          font-size: 13px;
+        }
+        .title h3 {
+          font-size: 2rem;
+         /*  border: 5px solid rgb(255, 208, 0); */
+
+      }
+      .title h1 {
+        line-height: 56px;
+
+    }
+ 
+  
+      }
+  
+    /* ------------------------ */
+    @media(max-width:556px){
+
+      body{
+        height: auto;
+
+      }
+    
+       .caja_2{/* inferior: menú y título */
+        width: 100%;
+        height: 75%;
+       /* border: 3px solid rgb(255, 0, 153); */  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+       }
+            .menu{
+                width: 32%;
+                height: 100%;
+                /* border: 3px solid rgb(212, 136, 182); */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+                 
+                  #versalitas {
+                    font-size: 17px;
+                    margin-left: 20%;
+                }
+                  #h{
+                    font-size: 2rem;
+
+                  }
+
+    
+            .title{
+                width: 68%;
+                height: 100%;
+               /*  border: 3px solid rgb(10, 235, 156); */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                line-height: 20px;
+               
+            }
+                 .title h1{
+                   
+                    font-size: 2.8rem;
+                    line-height: 56px;
+                
+
+                 }
+                 .title h3{
+                    
+                    font-size: 35px;
+                    line-height: 56px;
+                 
+                 }
+               
+    
+          .recuadro{
+            width: 150px;
+            height: 160px;
+          }
+          .menu h4{
+            font-size: 13px;
+            margin: 2%;
+            margin-left: 15%;
+    
+          }
+          #home{
+            font-size: 13px;
+            margin: 2%;
+            margin-left: 15%;
+          }
+          #h{
+    
+            font-size: 17px;
+    
+          }
+        
+        }
+/* --------- */
+@media(max-width:535px){
+
+
+                    .caja_1 p{
+                         font-size: 13px;
+                         margin: 2%;
+                    }
+
+       .caja_2{/* inferior: menú y título */
+        width: 100%;
+        height: 75%;
+       /*  border: 3px solid rgb(255, 0, 153);  */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+            .menu{
+                width: 90%;
+                height: 35%;
+              /*  border: 3px solid rgb(212, 136, 182);  */
+                display: flex;
+                justify-content: center;
+                align-items: top;
+
+
+            }
+                  .recuadro{
+                    width: 50%;
+                    height: 100%;
+                    border: 3px solid rgb(255, 255, 255);
+                    background-color:#000;
+               
+                  }
+                  .menu h4{
+                    font-size: 17px;
+                    margin: 2.5%;
+                    margin-left: 20%;
+
+                  }
+                  #home{
+                    font-size: 17px;
+                    margin: 2.5%;
+                    margin-left: 20%;
+                  }
+                  #h{
+                    font-size: 21px;
+
+                  }
+                }
+
+
