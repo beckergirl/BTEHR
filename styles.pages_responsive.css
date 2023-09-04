@@ -1,0 +1,723 @@
+/* ------------------------------------------------------------------------- */
+    /* RESPONSIVE WEB DESIGN */
+/* ------------------------------------------------------------------------- */
+/* MÓVILES */
+
+@media(max-width:430px){
+
+ 
+ body{
+  
+     
+     width: 100%;
+     height: auto;/* scroll */
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+ }
+ /* -----LANDING PAGE------- */
+
+ .logotipo_btehr {
+  height: 40%;
+ /*  border: 3px solid rgb(255, 255, 255); */
+}
+
+ .logotipo_btehr img{
+  width: 30%;
+}
+.blockchain h1{
+
+  font-size: 2rem;
+  line-height: 50px;
+}
+.blockchain h3{
+  font-size: 1.2rem;
+  line-height: 30px;
+
+}
+.eleccion_idioma{
+width: 100%;
+height: 40%;
+/* border: 5px solid rgb(123, 0, 255);  */
+}
+.eleccion_idioma a{
+font-size: 0.8rem;
+color: white;
+margin: 2%;
+
+}
+
+/* ----- CIERRA ESTILOS LANDING PAGE------- */
+ /* --------------------------------------------------- */
+ /* HEADER */ /* Menú + foto */
+  /* --------------------------------------------------- */
+ header{
+    width:100%;
+    height: 100vh;
+/*     border: 5px solid rgb(255, 208, 0); */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(home_movil.jpeg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 100%;
+
+ }
+ #contacto{
+  width:100%;
+  height: 100vh;
+  background-size: auto 100%;
+}
+
+#sobre_nosotros{
+  width:100%;
+  height: 100vh;
+  background-image: url(about_us_movil.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+#soluciones{
+  width:100%;
+  height: 100vh;
+  background-size: auto 100%;
+}
+#documentacion{
+  width:100%;
+  height: 100vh;
+  background-size: auto 100%;
+}
+       .caja_1{/* superior: logo e idioma*/
+        width: 100%;
+        height: 25%;
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        /*  border: 3px solid rgb(208, 255, 0); */
+       }
+       .caja1_a{/* LOGO */
+        width: 90%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        /* border: 3px solid rgb(4, 0, 255);   */
+        background-image: url(LOGO\ BTEHR\ blanco.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 45%;
+
+    }
+            .logo{
+               width: 0%;
+            }
+                   
+            .caja1_b{/* IDIOMA */
+                width: 100%;
+                height: 20%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                /* border: 3px solid rgb(17, 255, 0);  */
+            }
+                    .caja_1 p{
+                         color: white;
+                         font-family: 'Raleway', sans-serif; 
+                         font-size: 13px;
+                         margin: 2%;
+                    }
+
+       .caja_2{/* inferior: menú y título */
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+       }
+            .menu{
+                width: 90%;
+                height: 70%;
+               /*  border: 3px solid rgb(212, 136, 182); */
+                display: flex;
+                justify-content: center;
+                align-items: top;
+
+
+            }
+                  .recuadro{
+                    width: 60%;
+                    height: 50%;
+                    border: 3px solid rgb(255, 255, 255);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: left;
+                  }
+                  .menu h4{
+                    font-size: 17px;
+                    margin: 2.5%;
+                    margin-left: 20%;
+
+                  }
+             
+                  #home{
+                    font-size: 17px;
+                    margin: 2.5%;
+                    margin-left: 20%;
+                  }
+                  #versalitas{
+
+                    font-size: 17px;
+                    margin: 2.5%;
+                    margin-left: 20%;
+                  }
+                  #h{
+                    font-size: 21px;
+
+                  }
+    
+            .title{
+                width: 90%;
+                height: 30%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+               
+            }
+                 .title h1{
+            
+                    font-size: 3.5rem;
+                    line-height: 60px;
+                    text-align: center;
+                 /*    letter-spacing: 7px; */
+                    color: rgba(255, 255, 255);
+                  /*   text-decoration: none; */
+
+                 }
+                 .title h3{
+                    font-size: 2.5rem;
+                    letter-spacing: 2px;
+                    color: rgb(255, 255, 255);
+
+                 }
+                 #us{
+                    font-size: 3.5rem;
+                 }
+                #c{/* página contact */
+                  font-size: 24px;
+
+                }
+                #frase{
+                  font-size: 3.2rem;
+                }
+/* --------------------------------------------------- */
+/* CONTENIDO */
+ /* --------------------------------------------------- */
+ /* CONTACT */
+ .contenido{
+     /*  border: 8px solid rgb(212, 136, 182); */
+  
+      display: flex;
+      width: 100%;
+      height: 170vmax;/* MIRAR */
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+   }    
+       .encabezado{
+          height: 50%;
+       }
+            .encabezado h2{
+              width: 100%;
+              height: 30%;
+    
+              font-size: 30px;
+              line-height: normal;
+              display: flex;
+              justify-content: right;
+              align-items: center;
+  
+            }
+            .encabezado h4{
+              width: 90%;
+              height: 70%;
+              font-size: 20px;
+              display: flex;
+              flex-direction:column;
+              align-items: left;
+             
+            }
+            .encabezado h4 li{/* contact */
+              line-height: 25px;
+            }
+  
+      .segundo_encabezado{
+          height: 50%;
+         /*  border: 3px solid rgb(242, 0, 255); */
+      }
+      .info{
+        /* width: 100%; */
+        height: 12%;
+        font-size: 12px;
+
+        /* border: 3px solid rgb(242, 0, 255);  */
+      }
+      /* FORMULARIO CONTACT */
+      #form{
+        height: 88%;
+        border: 3px solid rgb(0, 0, 0);
+      }
+      .field {
+        height: 15%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      #campo{
+        margin-left: 10%; 
+    
+      }
+      
+      .field label {
+        width: 27%;
+        height: 50%;
+        margin-top: 3%;
+        /* border: 3px solid rgb(94, 255, 0); */
+        font-size: 16px;
+     
+      }
+      .field input {
+        
+        width: 50%;
+        height: 50%;
+        font-size: 14px;
+   /*     border: 3px solid rgb(94, 255, 0);  */
+      
+      }
+   
+      input[type="submit"] {/* submit message */
+        width: 80%;
+        height: 10%;
+        margin-top: 4%;
+        font-size: 22px;
+     
+      }
+ /* --------------------------------------------------- */
+/* FOOTER */ /* REDES SOCIALES, ANAGRAMA & COPY */
+ /* --------------------------------------------------- */
+footer{
+    height: 15vh;
+}
+    .redes_sociales{
+        width: 80%;
+        height: 30%;
+        margin-top: 1%;
+ 
+    }
+        .linkedin{
+            width: 6%;
+            background-size: 90%; 
+
+        }
+        .twitter{
+            width: 6%;
+            background-size: 90%;
+        }
+    .anagrama{
+        width: 80%;
+        height: 60%;
+      /*   border: 3px solid rgb(169, 15, 177); */
+    }
+       #b{
+        height: 80%;
+       }
+    .copys{
+        width: 80%;
+        height: 15%;
+        font-size: 10px;
+     
+    }
+    #versalita{
+        font-size: 14px;
+
+    }
+}
+@media(max-width:400px){
+  
+    .encabezado{
+       height: 55%;/*  */
+      /*  border: 3px solid rgb(230, 6, 6); */
+
+   /*    border: 3px solid rgb(230, 6, 6); */
+    }
+        
+
+   .segundo_encabezado{
+       height: 45%;
+       /* border: 3px solid rgb(242, 0, 255);  */
+   }
+  
+}
+@media(max-width:390px){
+  body{
+    height: auto;
+  }
+  header{
+    height: 100vh;
+    /* border: 10px solid rgb(255, 208, 0); */ 
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+  
+  
+  }
+    
+/* ------------------------------------------------ */
+   
+    .encabezado{
+       height: 50%;/*  */
+
+   /*    border: 3px solid rgb(230, 6, 6); */
+    }
+         .encabezado h2{
+           height: 30%;
+          /* border: 3px solid rgb(149, 212, 136); */
+           font-size: 25px;
+
+         }
+         .encabezado h4{
+           width: 90%;
+           height: 70%;
+   /*         border: 3px solid rgb(166, 136, 212);  */ 
+           font-size: 17px;
+          
+         }
+         .encabezado h4 li{/* contact */
+           line-height: 22px;
+         }
+
+   .segundo_encabezado{
+       height: 50%;
+       /* border: 3px solid rgb(242, 0, 255);  */
+   }
+   .info{
+     /* width: 100%; */
+     height: 15%;
+     font-size: 10px;
+   /*   border: 3px solid rgb(242, 0, 255);  */
+     margin-top: 3%;
+   }
+   /* FORMULARIO CONTACT */
+   #form{
+     height: 85%;
+     border: 3px solid rgb(0, 0, 0);
+   }
+   .field {
+     height: 15%;
+     /* border: 3px solid rgb(43, 0, 255); */
+     /* margin-bottom: 10px; */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+   }
+   #campo{
+    margin-left: 10%; 
+
+  }
+   
+   .field label {
+     width: 27%;
+     height: 50%;
+     margin-top: 3%;
+  /*    border: 3px solid rgb(94, 255, 0);  */
+     font-size: 16px;
+  
+   }
+   .field input {
+     
+     width: 50%;
+     height: 50%;
+     font-size: 14px;
+     /* border: 3px solid rgb(94, 255, 0);  */
+   
+   }
+
+   input[type="submit"] {/* submit message */
+     width: 80%;
+     height: 15%;
+     font-size: 20px;
+     /* border: 3px solid rgb(94, 255, 0); */
+  
+   }
+}
+@media(max-width:380px){
+  body{
+    height: auto;
+  }
+  header{
+    height: 100vh;
+    /* border: 10px solid rgb(255, 208, 0); */ 
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+  
+  
+  }
+    .caja_1{
+      width: 100%;
+      height: 25%;
+       /*  border: 3px solid rgb(10, 235, 156);  */
+       }
+
+                    .caja_1 p{
+                         font-size: 12px;
+                    }
+
+       .caja_2{
+        height: 75%;
+       /*  border: 3px solid rgb(10, 235, 156);  */
+       }
+            .menu{
+                width: 90%;
+                height: 65%; 
+                display: flex;
+                justify-content: center;
+                margin-top: 2%;
+                /* border: 3px solid rgb(213, 10, 235);  */
+
+
+            }
+   
+                  .recuadro{/* aquí */
+                    width: 60%;
+                    height: 60%;
+                  }
+                  .menu h4{
+                    font-size: 16px;
+                    margin: 2.3%;
+                    margin-left: 16%;
+                  }
+                  #home{
+                    font-size: 16px;
+                    margin: 2.3%;
+                    margin-left: 16%;
+
+                  }
+                  #versalitas{
+                    font-size: 16px;
+                    margin: 2.3%;
+                    margin-left: 16%;
+
+                  }
+                  #h{
+                    font-size: 20px;
+
+                  }
+    
+            .title{
+                width: 90%;
+                height: 20%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                /*  border: 3px solid rgb(10, 190, 235);  */
+            }
+                 .title h1{
+                    font-size: 3rem;
+
+                 }
+        
+                 #us{
+                  font-size: 3rem;
+                }
+                 #c{
+                  font-size: 22px;
+
+                }
+                #frase{
+                  font-size: 2.7rem;
+                } 
+/* ------------------------------------------------ */
+.contenido{
+  /*  border: 8px solid rgb(212, 136, 182); */
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}    
+    .encabezado{
+       height: 60%;/*  */
+
+   /*    border: 3px solid rgb(230, 6, 6); */
+    }
+         .encabezado h2{
+           height: 30%;
+          /* border: 3px solid rgb(149, 212, 136); */
+           font-size: 25px;
+
+         }
+         .encabezado h4{
+           width: 90%;
+           height: 70%;
+   /*         border: 3px solid rgb(166, 136, 212);  */ 
+           font-size: 16px;
+          
+         }
+         .encabezado h4 li{/* contact */
+           line-height: 22px;
+         }
+
+   .segundo_encabezado{
+       height: 40%;
+       /* border: 3px solid rgb(242, 0, 255);  */
+   }
+   .info{
+     /* width: 100%; */
+     height: 15%;
+     font-size: 10px;
+   /*   border: 3px solid rgb(242, 0, 255);  */
+     margin-top: 3%;
+   }
+   /* FORMULARIO CONTACT */
+   #form{
+     height: 85%;
+     border: 3px solid rgb(0, 0, 0);
+   }
+   .field {
+     height: 15%;
+     /* border: 3px solid rgb(43, 0, 255); */
+     /* margin-bottom: 10px; */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+   }
+   
+   .field label {
+     width: 27%;
+     height: 50%;
+     margin-top: 3%;
+     /* border: 3px solid rgb(94, 255, 0); */
+     font-size: 16px;
+  
+   }
+   .field input {
+     
+     width: 50%;
+     height: 50%;
+     font-size: 14px;
+/*     border: 3px solid rgb(94, 255, 0);  */
+   
+   }
+
+   input[type="submit"] {/* submit message */
+     width: 80%;
+     height: 15%;
+     font-size: 20px;
+     /* border: 3px solid rgb(94, 255, 0); */
+  
+   }
+  }
+
+   @media(max-width:280px){/* aquí */
+    body{
+      height: auto;
+    }
+    header{
+      height: 100vh;
+    /*  border: 10px solid rgb(255, 208, 0);  */
+    }
+  
+                   
+                     .title h3{
+                        font-size: 18px;
+                        letter-spacing: 2px;
+    
+                     }
+                
+                    #frase{
+                      font-size: 2.5rem;
+
+                    }
+          
+  /* ------------------------------------------------ */
+/* CONTENIDO CONTACT */
+    
+     /* FORMULARIO CONTACT */
+  /* ------------------------------------------------ */    
+      .encabezado{
+         height: 60%;
+     /*     border: 3px solid rgb(230, 6, 6); */
+      }
+           .encabezado h2{
+             height: 30%;
+            /* border: 3px solid rgb(149, 212, 136); */
+             font-size: 22px;
+  
+           }
+           .encabezado h4{
+             width: 90%;
+             height: 70%;
+     /*         border: 3px solid rgb(166, 136, 212);  */ 
+             font-size: 15px;
+            
+           }
+           .encabezado h4 li{/* contact */
+             line-height: 20px;
+           }
+  
+     .segundo_encabezado{
+         height: 40%;
+         /* border: 3px solid rgb(242, 0, 255);  */
+     }
+     .info{
+       /* width: 100%; */
+       height: 15%;
+       font-size: 10px;
+     /*   border: 3px solid rgb(242, 0, 255);  */
+       margin-top: 3%;
+     }
+     /* FORMULARIO CONTACT */
+     #form{
+       height: 85%;
+       border: 3px solid rgb(0, 0, 0);
+     }
+     .field {
+       height: 15%;
+       /* border: 3px solid rgb(43, 0, 255); */
+       /* margin-bottom: 10px; */
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+     }
+     
+     .field label {
+       width: 27%;
+       height: 50%;
+
+     /*   border: 3px solid rgb(94, 255, 0);  */
+       font-size: 11px;
+    
+     }
+     .field input {
+       
+       width: 45%;
+       height: 50%;
+       font-size: 11px;
+    /*   border: 3px solid rgb(94, 255, 0);  */
+     
+     }
+  
+     input[type="submit"] {/* submit message */
+
+       font-size: 15px;
+      /*  border: 3px solid rgb(94, 255, 0); */
+    
+     }}
