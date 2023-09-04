@@ -36,10 +36,8 @@ font-family: 'Raleway', sans-serif; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(home.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+    background-image: url(home.png); 
+    background-size: cover;
 
  }
        .caja_1{/* superior: logo e idioma*/
@@ -48,9 +46,8 @@ font-family: 'Raleway', sans-serif; */
 
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
-      /*  border: 3px solid rgb(208, 255, 0);  */
+        justify-content: space-between;
+        /* border: 3px solid rgb(208, 255, 0); */ 
        }
        .caja1_a{/* LOGO */
         width: 32%;
@@ -58,15 +55,25 @@ font-family: 'Raleway', sans-serif; */
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: end;
-     /*   border: 3px solid rgb(4, 0, 255);  */
+        align-items: flex-end;
+        /* border: 3px solid rgb(255, 0, 21);  */
 
     }
             .logo{
-               width: 60%;
-               margin-left: 20%;
+              width: 100%;
+              height: 100%;
+             /*  border: 3px solid rgb(64, 0, 255);  */
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: flex-end;
+
             }
-                   
+                 .logo img{
+                  width: 60%;
+
+                 }
+                 
             .caja1_b{/* IDIOMA */
                 width: 68%;
                 height: 100%;
@@ -84,7 +91,7 @@ font-family: 'Raleway', sans-serif; */
        .caja_2{/* inferior: menú y título */
         width: 100%;
         height: 75%;
-       /*  border: 3px solid rgb(255, 0, 153);  */
+        /* border: 3px solid rgb(255, 0, 153);  */
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -100,8 +107,10 @@ font-family: 'Raleway', sans-serif; */
 
             }
                   .recuadro{
+                    /* width: 60%;
+                    height: 40%; */
                     width: 270px;
-                    height: 255px;
+                    height: 255px; 
                     margin-top: 3%;
                     border: 3px solid rgb(255, 255, 255);
                     display: flex;
@@ -109,13 +118,13 @@ font-family: 'Raleway', sans-serif; */
                     justify-content: center;
                     align-items: left;
                   }
-                  .menu h4{
+                  .menu h4{/* home/about us/solutions... */
                     font-family: 'Raleway',thin,sans-serif;
                     font-weight: 400;
                     color: white;
                     font-size: 1.3rem;
                     margin: 3%;
-                    margin-left: 25%;
+                    margin-left: 20%;
 
                   }
                   .menu :hover{
@@ -126,11 +135,11 @@ font-family: 'Raleway', sans-serif; */
                   #home{
                     font-family: 'Raleway',thin,sans-serif;
                     font-variant: small-caps;
-                    font-weight: 900;
+                    font-weight: 700;
                     color: white;
                     font-size: 1.5rem;
                     margin: 3%;
-                    margin-left: 25%;
+                    margin-left: 20%;
                   }
                   #h{
                     font-size: 2rem;
@@ -146,9 +155,10 @@ font-family: 'Raleway', sans-serif; */
                 justify-content: center;
                 /* line-height: 70px; */
             }
+            /* HE MINIMIZADO "TITULAR" BLOCK... */
                  .title h1{
                     font-family: 'Raleway', thin, sans-serif; 
-                    font-size: 6rem;
+                    font-size: 5.5rem;
                     font-weight: 400;
                     letter-spacing: 7px;
                     color: white;
@@ -157,24 +167,22 @@ font-family: 'Raleway', sans-serif; */
                  }
                  .title h3{
                     font-family: 'Raleway', thin, sans-serif; 
-                    font-size: 3.2rem;
+                    font-size: 3rem;
                     font-weight: 300;
                     letter-spacing: 2px;
                     color: white;
                     text-decoration: none;
                     margin-left: 9%;
         
-
                  }
 /* --------------------------------------------------- */
 /* CONTENIDO */
  /* --------------------------------------------------- */
  .contenido{
-   border: 8px solid rgb(212, 136, 182);
-
+    /* border: 8px solid rgb(212, 136, 182); */
     display: flex;
     width: 100%;
-    height: 190vmin;/*  */
+    height: 200vmin;/*  */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -182,19 +190,19 @@ font-family: 'Raleway', sans-serif; */
  }    
      .encabezado{
         width: 80%;
-        height: 70%;/*  */
+        height: 40%;/*  */
         display: flex;
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
-        border: 3px solid rgb(246, 4, 4); 
+        /* border: 3px solid rgb(239, 10, 10);  */ 
      }
           .encabezado h1{
             width: 100%;
-            height: 45%;/* 50 */
-            border: 3px solid rgb(136, 212, 201); 
+            height: 45%;
+            /* border: 3px solid rgb(136, 212, 201); */
             color: #000;
-            font-size: 60px;
+            font-size: 55px;
             font-family: 'Raleway', thin, sans-serif; 
             font-style: normal;
             font-weight: 400;
@@ -206,8 +214,8 @@ font-family: 'Raleway', sans-serif; */
           }
           .encabezado h2{
             width: 100%;
-            height: 15%;
-            border: 3px solid rgb(149, 212, 136);
+            height: 13%;
+            /* border: 3px solid rgb(149, 212, 136); */
             color: #000;
             font-size: 45px;
             font-family: 'Raleway', thin, sans-serif; 
@@ -220,12 +228,12 @@ font-family: 'Raleway', sans-serif; */
 
           }
           .encabezado h4{
-            width: 90%;
-            height: 40%;/* 35 */
-            /* border: 3px solid rgb(166, 136, 212);  */
+            width: 100%;
+            height: 42%;
+           /*  border: 3px solid rgb(166, 136, 212);  */
             font-family: 'Raleway', thin, sans-serif; 
             color: #000;
-            font-size: 24px;
+            font-size: 22px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -233,27 +241,27 @@ font-family: 'Raleway', sans-serif; */
             align-items: center;
            
           }
-          .linea{
-            width: 80%;
-            /* height: 1px; */
-            border: 2px solid rgb(0, 0, 0);
-          }
+
+    .linea{
+      width: 80%;
+      border-bottom: 5px solid rgb(0, 0, 0);/* BOTTON */
+    }
 
     .segundo_encabezado{
         width: 80%;
-        height: 70%;
+        height: 60%;
         display: flex;
         justify-content: top;
         flex-direction: column;
-         align-items: center;
-         border: 3px solid rgb(242, 0, 255); 
+        align-items: center;
+       /*  border: 3px solid rgb(242, 0, 255);   */
     }
     .segundo_encabezado h1{
-        /* border: 3px solid rgb(222, 237, 192); */
+        /* border: 3px solid rgb(222, 237, 192);  */
         width: 100%;
-        height: 40%;
+        height: 30%;
         color: #000;
-        font-size: 35px;/* 40 */
+        font-size: 35px;
         font-family: 'Raleway', thin, sans-serif; 
         font-style: normal;
         font-weight: 600;
@@ -262,55 +270,67 @@ font-family: 'Raleway', sans-serif; */
         align-items: center;
     }
         .caja{
-            border: 3px solid rgb(0, 0, 0);
+            border: 3px solid rgb(0, 0, 0); 
             width: 100%;
-            height: 40%;
+            height: 65%;
             display: flex;
             flex-direction: row;
             justify-content: center;
             /* align-items: center; */
         }
+          .caja_izquierda{
+            border-right: 1px solid rgb(0, 0, 0);
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+          }
+          .caja_derecha{
+            border-left: 1px solid rgb(0, 0, 0);
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+          }
             .caja_texto{
-                border: 3px solid rgb(231, 12, 213);
-                width: 33%;
-                height: 100%;
+                border-bottom: 1px solid rgb(0, 0, 0); 
+                width: 100%;
+                height: 14.1%;
                 display: flex;
                 flex-direction: column;
-                justify-content: left;
+                justify-content: center;
                 align-items: center;
 
-            }/* ME QUEDO AQUI PARA EL RESPONSIVE QUE GUARDE PROPORCION  */
-                .caja_texto h1{
-                    /* width: 80%; */
+            }
+                .caja_texto h2{
+                    width: 95%;
                     height: 40%;
-                    border: 3px solid rgb(249, 6, 6);
+
+                    font-size: 18px;
+                    font-family: 'Raleway', thin, sans-serif; 
+                    font-style: normal;
+                    font-weight: 600;
+                    text-transform: uppercase;/* MAYÚSCULAS ME GUSTA MÁS */
+
                     display: flex;
+                    justify-content: center;
                     align-items: center;
                     text-align: center;
-                    font-size: 25px;
-                    font-family: 'Raleway', thin, sans-serif; 
-                    font-style: normal;
-                    font-weight: 700;
+                    
                 }
-                .caja_texto p{
-                    width: 80%;
-                    height: 60%;
-                    border: 3px solid rgb(127, 6, 249); 
-                    display: flex;
-                  /*   align-items: center; */
-                    font-family: 'Raleway', thin, sans-serif; 
-                    color: #000;
-                    font-size: 22px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
-                }
+
  /* --------------------------------------------------- */
 /* FOOTER */ /* REDES SOCIALES, ANAGRAMA & COPY */
  /* --------------------------------------------------- */
 footer{
     width: 100%;
-    height: 30vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,25 +340,32 @@ footer{
     .redes_sociales{
         width: 80%;
         height: 25%;
-        /* border: 3px solid rgb(235, 192, 237);  */
+       /*  border: 3px solid rgb(235, 192, 237);  */
         display: flex;
         flex-direction: row;
         justify-content: left;
-        margin-top: 1%;
+        align-items: center;
     }
         .linkedin{
-            width: 5%;
-            background-image: url(linkedin_logo.png);
-            background-repeat: no-repeat;
-            background-size: 87%; 
+            width: auto;
+            height: 90%;
 
         }
+              .linkedin img{
+                  width: auto;
+                  height: 95%;
+              }
         .twitter{
-            width: 5%;
-            background-image: url(twitter_logo.png);
-            background-repeat: no-repeat;
-            background-size: 87%;
+          width: auto;
+          height: 90%;
+            
         }
+               .twitter img{
+                   width: auto;
+                   height: 95%;
+
+                }
+
     .anagrama{
         width: 80%;
         height: 60%;
@@ -374,36 +401,16 @@ footer{
 
     @media(max-width:1080px){/* AUTO AQUÍ */
         body{
-
             height: auto;/* scroll */
 
         }
-        header{
-           height: 100vh;
-           /* border: 10px solid rgb(255, 208, 0); */ 
-           background-repeat:repeat;
-           background-position: center;
-           background-size:auto 100%;
-         
-         }
-                    .caja1_a{/* LOGO */
-                        width: 32%;
-                        height: 100%;
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: center;
-                        align-items: end;
-                       /*  border: 3px solid rgb(4, 0, 255); */
-        
-                    }
-                            .logo{
-                               width: 60%;
-      
-                            }
-                           
-                     .caja_1 p{
-                            margin: 5%;
-                            }
+
+        /* NAVBAR */
+            
+          .caja_1 p{
+              margin: 5%;
+            
+          }
 
                           .recuadro{
                             width: 250px;
@@ -431,97 +438,43 @@ footer{
                             font-size: 3rem;
                          }
             /* --------------------- */
-                    
-                                    .encabezado h1{
-                                      height: 40%;
-                                      /* border: 10px solid rgb(136, 212, 201);  */
-                                      font-size: 50px;
-                            
-                          
-                                    }
-                                    .encabezado h2{
-                                
-                                      height: 15%;
-                                     /*  border: 10px solid rgb(149, 212, 136);  */
-                                  
-                                      font-size: 44px;
-                          
-                                    }
-                                    .encabezado h4{
-                                      height: 35%;
-                                      /* border: 10px solid rgb(166, 136, 212); */
-                                      font-size: 22px;
-                                     
-                                    }
-                              .segundo_encabezado h1{
-                                  font-size: 35px;
-                                 /*  border: 10px solid rgb(166, 136, 212) */
-                            
-                              }
-                                          .caja_texto h1{
-                                              font-size: 25px;
-                        
-                                          }
-                                          .caja_texto p{
-                                              font-size: 20px;
-  
-    }
-  }    
-    /* -------------- */
-    @media(max-width:912px){
-      header{
-        height: 100vh;
-        /* border: 10px solid rgb(255, 208, 0); */ 
-        background-repeat:no-repeat;
-        background-position: center;
-        background-size:100%;
-      
-      
-      }
-    }
- @media(max-width:900px){
-  header{
-    height: 100vh;
-    /* border: 10px solid rgb(255, 208, 0); */ 
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: auto 100%;
-  
-  
-  }
-  .caja_1{/* superior: logo e idioma*/
-    height: 30%;
+            /* CONTENIDO / ENCABEZADO */
+            .contenido{
+              height: 200vmax;/*  */
+              
+          
+           } 
+            .encabezado h1{
+              /* border: 3px solid rgb(136, 212, 201); */
+              color: #000;
+              font-size: 50px;
 
-   }
-        .caja1_a{/* LOGO */
-            width: 45%;
-        
-
-        }
-                .logo{
-                   width: 50%;
+            }
+            .encabezado h2{
+              font-size: 35px;
+              
+            }
+            .encabezado h4{
+              font-size: 20px;
+             
+            }
+            /* SEGUNDO ENCABEZADO (CONTENIDO) TABLA Y TEXTO */
+            .segundo_encabezado h1{
+              font-size: 35px;
             
-                }
-               
-        .caja1_b{/* IDIOMA */
-            width: 55%;
-            height: 100%;
-        }
-        .caja_2{/* inferior: menú y título */
-          width: 100%;
-          height: 75%;
-      
-         }
-         /*  */
-         .menu{
-          width: 40%;
+            }
+                      .caja_texto h2{
+                        font-size: 16px;
+                          
+                      }
+    }   
+/* ---------------------------------------------------------- */
+ @media(max-width:900px){
+  .contenido{
+    height: 140vmax;/* ASÍ -----------------------------------*/
 
-      }
+ }
   
-              .recuadro{
-                  width: 210px;
-                  height: 225px;
-              }
               .title{
                   width: 60%;
                   height: 100%;
@@ -531,135 +484,79 @@ footer{
   
                    }
                    .title h3{
-                      font-size: 2.6rem;
+                      font-size: 2.4rem;
                    }
 
 /* -------------------------------- */
                    .encabezado h1{
-                    height: 43%;
-                   /*  border: 10px solid rgb(136, 212, 201); */
-                    font-size: 45px;
+                    /* border: 10px solid rgb(136, 212, 201);  */
+                    font-size: 38px;
           
         
                   }
                   .encabezado h2{
-              
-                    height: 12%;
-                   /*  border: 10px solid rgb(149, 212, 136);  */
-                
-                    font-size: 40px;
+                    font-size: 28px;
         
                   }
                   .encabezado h4{
-                    height: 35%;
-                    /* border: 10px solid rgb(166, 136, 212);  */
-                    font-size: 20px;
+                   /*  border: 10px solid rgb(166, 136, 212);  */
+                    font-size: 18px;
                    
                   }
                   .segundo_encabezado h1{
-                    font-size: 32px;
-
-
+                    font-size: 28px;
                   }
-                  .caja_texto h1{
-                    font-size: 22px;
-
-                }
-                .caja_texto p{
-                    font-size: 18px;
-         
-                }
+                  .caja_texto h2{
+                    font-size: 14px;
                     
-}  
-@media(max-width:800px){
-  header{
-    height: 100vh;
-    /* border: 10px solid rgb(255, 208, 0); */ 
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 100%;
-  
-  
-  }
+                }
+
+   
+}
+/* ---------------------------------------------------------- */
+@media(max-width:800px){/* ESTOY AQUÍ */
+  /* NABVAR */
+ 
   .recuadro{
     width: 190px;
     height: 190px;
   }
-.title{
-
-width: 60%;
-height: 100%;
-}
-  .title h1{
-    font-size: 3rem;
-
- }
- .title h3{
-    font-size: 2rem;
- }
- /* -------------------------------- */
+  .title{
+    width: 60%;
+   height: 100%;
+  }
+     .title h1{
+       font-size: 3rem;
+     }
+     .title h3{
+       font-size: 2rem;
+     }
+ /* -------------CONTENIDO--------------- */
  .encabezado h1{
-  height: 40%;
- /*  border: 10px solid rgb(136, 212, 201); */
-  font-size: 40px;
-
-
+  font-size: 36px;
 }
 .encabezado h2{
-
-  height: 12%;
- /*  border: 10px solid rgb(149, 212, 136);  */
-
-  font-size: 35px;
+  font-size: 26px;
 
 }
 .encabezado h4{
-  height: 40%;
-  /* border: 10px solid rgb(166, 136, 212);  */
-  font-size: 18px;
+  font-size: 17px;
  
 }
 .segundo_encabezado h1{
-  font-size: 30px;
-
-
+  font-size: 26px;
 }
-.caja_texto h1{
-  font-size: 20px;
-
-}
-.caja_texto p{
-  font-size: 16px;
-
+.caja_texto h2{
+  font-size: 14px;
 }
   
 }
-@media(max-width:769px){
-
-  header{
-    height: 100vh;
-    /* border: 10px solid rgb(255, 208, 0); */ 
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: auto 100%;
-  
-  
-  }
-
-}
-@media(max-width:750px){
+/* ------------------------------------------*/
+@media(max-width:750px){/* 750 */
   body{
     height: auto;
   }
-  header{
-    height: 100vh;
-    /* border: 10px solid rgb(255, 208, 0); */ 
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 100%;
-  
-  
-  }
+
     /* menu */
     .recuadro{
       width: 200px;
@@ -667,9 +564,6 @@ height: 100%;
       margin-top: 3%;
     }
     .menu h4{
-      font-family: 'Raleway',thin,sans-serif;
-      font-weight: 400;
-      color: white;
       font-size: 1rem;
       margin: 3%;
       margin-left: 22%;
@@ -681,93 +575,53 @@ height: 100%;
       margin-left: 22%;
     }
     #h{
-
       font-size: 1.4rem;
 
-    }
-  
-  .caja_texto{
-    /* border: 3px solid rgb(231, 12, 213);  */
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .caja_texto h1{
-
-    height: 30%;
-   /*  border: 3px solid rgb(249, 6, 6); */
- 
-}
-.caja_texto p{
-
-    height: 60%;
-    /* border: 3px solid rgb(127, 6, 249);  */
-}
-footer{
-  height: 22vh;
-
-/*   border: 3px solid rgb(192, 237, 224); */
-}
+    } 
 
 }
+/* ---------------------------------------------- */
 @media(max-width:700px){
   body{
     height: auto;
   }
-  header{
-    height: 100vh;
-    /* border: 10px solid rgb(255, 208, 0); */ 
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 100%;
-  
-  
-  }
-  .caja_texto h1{
-    font-size: 18px;
+
+  .caja_texto h2{
+    font-size: 12px;
     font-weight: bolder;
+    /* border: 3px solid rgb(192, 237, 224); */
   
   }
-  footer{
-    height: 20vh;
+  /* -------------CONTENIDO--------------- */
+  .encabezado h1{
+    font-size: 32px;
+  }
+  .encabezado h2{
+    font-size: 24px;
 
-  /*   border: 3px solid rgb(192, 237, 224); */
-}
-.redes_sociales{
-  width: 80%;
-  height: 35%;
- 
-}
-.linkedin{
-  width: 4%;
-  background-size: 85%; 
+  }
+  .encabezado h4{
+    font-size: 16px;
+  
+  }
+  .segundo_encabezado h1{
+    font-size: 24px;
 
-}
-.twitter{
-  width: 4%;
-  background-size: 85%;
-}
-.anagrama{
-  height: 55%;
-}
- 
+  }
+  .caja_texto h2{
+    font-size: 10px;
+  }
   
 }
+/* ---------------------------AQUÍ-------------- */
   @media(max-width:664px){
     body{
       height: auto;
     }
-    header{
-      height: 100vh;
-      /* border: 10px solid rgb(255, 208, 0); */ 
-      background-repeat:no-repeat;
-      background-position: center;
-      background-size: auto 100%;
-    
-    
-    }
+    .contenido{
+      height: 140vmax;/* -----------------------------------*/
   
+    }
     .title h1{
       font-size: 2.5rem;
     }
@@ -776,19 +630,12 @@ footer{
     }
     /* menu */
         .recuadro{
-          width: 200px;
-          height: 180px;
+          width: 180px;
+          height: 160px;
           margin-top: 3%;
-          border: 3px solid rgb(255, 255, 255);
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: left;
+      
         }
         .menu h4{
-          font-family: 'Raleway',thin,sans-serif;
-          font-weight: 400;
-          color: white;
           font-size: 1rem;
           margin: 2%;
           margin-left: 20%;
@@ -800,84 +647,26 @@ footer{
           margin-left: 20%;
         }
         #h{
-
           font-size: 1.4rem;
 
         }
-        .encabezado h1{
-          height: 40%;
-         /*  border: 10px solid rgb(136, 212, 201); */
-          font-size: 32px;
-        
-        
-        }
-        .encabezado h2{
-        
-          height: 12%;
-          font-size: 30px;
-        
-        }
-        .encabezado h4{
-          height: 40%;
-          /* border: 10px solid rgb(166, 136, 212);  */
-          font-size: 17px;
-         
-        }
-        .segundo_encabezado h1{
-          font-size: 27px;
-        
-        
-        }
-        .caja_texto h1{
+/* -----------------cuerpo------------------- */
 
-          height: 25%;
-          width: 90%;
-         /*  border: 3px solid rgb(249, 6, 6); */
-       
-      }
-      .caja_texto p{
-      
+        .caja{
           height: 65%;
-          width: 90%;
-         /*  border: 3px solid rgb(127, 6, 249);  */
-      }
-        .caja_texto h1{
-          font-size: 18px;
-        
+
         }
-        .caja_texto p{
-          font-size: 15px;
-        
+        .segundo_encabezado h2{
+          font-size: 12;
         }
-  
         #b{
           height: 100%;
          }
-    .copys{
-        font-size: 10px;
-
-    }
-    #versalita{
-        font-size: 15px;
-
-    }
-  
+    
       }
-/* --------- */
+/* ------------------------------------------------------ */
 @media(max-width:640px){
-  body{
-    height: auto;
-  }
-  header{
-    height: 100vh;
-    /* border: 10px solid rgb(255, 208, 0); */ 
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: auto 100%;
-  
-  
-  }
-
+ /* ------navbar---------- */
   .title h1{
     font-size: 2.5rem;
   }
@@ -887,7 +676,7 @@ footer{
   /* menu */
       .recuadro{
         width: 200px;
-        height: 180px;
+        height: 190px;
         margin-top: 3%;
         border: 3px solid rgb(255, 255, 255);
         display: flex;
@@ -914,76 +703,34 @@ footer{
         font-size: 1.4rem;
 
       }
+      /* --------contenido--------- */
       .encabezado h1{
-        height: 40%;
-       /*  border: 10px solid rgb(136, 212, 201); */
-        font-size: 32px;
-      
-      
+        font-size: 27px;
       }
       .encabezado h2{
-      
-        height: 12%;
-        font-size: 30px;
-      
+        font-size: 20px;
       }
       .encabezado h4{
-        height: 40%;
-        /* border: 10px solid rgb(166, 136, 212);  */
-        font-size: 17px;
-       
+        font-size: 14px;
       }
       .segundo_encabezado h1{
-        font-size: 27px;
-      
-      
+        font-size: 20px;
       }
-      .caja{
-/* cambio a colum para adaptarlo mejor */
-        height: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-       
-    }
-        .caja_texto{
-            width: 100%;
-            height: 30%;
-            display: flex;
-            flex-direction: column;
-            justify-content: left;
-            align-items: center;
-           /*  border: 2px solid rgb(166, 136, 212); */
+     
+      .segundo_encabezado h2{
+        font-size: 12;
+      }
+      footer{
+        height: 12vh;
+      }
+      .copys p{
+        font-size: smaller;
+      }
 
-        }
-            .caja_texto h1{
-                height: 46%;
-                font-size: 20px;
-            
-            }
-            .caja_texto p{
-                height: 54%;
-                font-size: 15px;
-            
-            }
-
-
-    }
+}
     /* --------- */
 @media(max-width:580px){
-  body{
-    height: auto;
-  }
-  header{
-    height: 100vh;
-    /* border: 10px solid rgb(255, 208, 0); */ 
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: auto 100%;
-  
-  
-  }
+ 
       .caja1_b p{
         font-size: 12px;
       }
@@ -1006,62 +753,25 @@ footer{
         margin-left: 15%;
       }
       #h{
-
         font-size: 19px;
-
       }
+      /* --------contenido-------- */
       .encabezado h1{
         height: 40%;
-       /*  border: 10px solid rgb(136, 212, 201); */
-        font-size: 27px;
-      
-      
-      }
+        font-size: 28px;
+       }
       .encabezado h2{
-      
-        height: 12%;
-        font-size: 25px;
-      
+        height: 10%;
+        font-size: 24px;
       }
       .encabezado h4{
-        height: 40%;
-        /* border: 10px solid rgb(166, 136, 212);  */
-        font-size: 14px;
-       
+        height: 50%;
+        font-size: 15px;
       }
-      .segundo_encabezado h1{
-        font-size: 22px;
-      
-      
-      }
- 
-      .caja_texto h1{
-        font-size: 16px;
-        font-weight: bolder;
-      
-      }
-      .caja_texto p{
-        font-size: 13px;
-      
-      }
-
-    }
+  }
     /* ------------------------ */
     @media(max-width:556px){
 
-      body{
-        height: auto;
-      }
-      header{
-        height: 100vh;
-        /* border: 10px solid rgb(255, 208, 0); */ 
-        background-repeat:no-repeat;
-        background-position: center;
-        background-size: auto 100%;
-      
-      
-      }
-    
           .recuadro{
             width: 150px;
             height: 160px;
@@ -1083,22 +793,18 @@ footer{
     
           }
           .encabezado h1{
-            height: 40%;
-           /*  border: 10px solid rgb(136, 212, 201); */
             font-size: 22px;
           
           
           }
           .encabezado h2{
-          
-            height: 12%;
             font-size: 20px;
           
           }
           .encabezado h4{
             height: 40%;
             /* border: 10px solid rgb(166, 136, 212);  */
-            font-size: 14px;
+            font-size: 12px;
            
           }
           .segundo_encabezado h1{
@@ -1106,27 +812,10 @@ footer{
           
           
           }
-     
-          .caja_texto h1{
-            font-size: 16px;
-            font-weight: bolder;
-          
-          }
-          .caja_texto p{
-            font-size: 13px;
-          
-          }
-    
-        }
+     }
 /* --------- */
 @media(max-width:535px){
-  header{
-    background-image: url(BALLENA+CAPA.movil.jpeg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: auto 100%;
 
- }
 
                     .caja_1 p{
                          font-size: 13px;
@@ -1194,3 +883,4 @@ footer{
 
                  }
 }
+
