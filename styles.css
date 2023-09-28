@@ -50,19 +50,19 @@ font-family: 'Raleway', sans-serif; */
         /* border: 3px solid rgb(208, 255, 0); */ 
        }
        .caja1_a{/* LOGO */
-        width: 32%;
+        width: 35%;
         height: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: flex-end;
-        /* border: 3px solid rgb(255, 0, 21);  */
+        /* border: 3px solid rgb(255, 0, 21);   */
 
     }
             .logo{
               width: 100%;
               height: 100%;
-             /*  border: 3px solid rgb(64, 0, 255);  */
+              /* border: 3px solid rgb(64, 0, 255); */ 
               display: flex;
               flex-direction: row;
               justify-content: center;
@@ -71,18 +71,23 @@ font-family: 'Raleway', sans-serif; */
             }
                  .logo img{
                   width: 60%;
+                 /*  border: 3px solid rgb(124, 110, 168);  */
 
                  }
                  
             .caja1_b{/* IDIOMA */
-                width: 68%;
+                width: 65%;
                 height: 100%;
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-end;
-                 /* border: 3px solid rgb(17, 255, 0);  */
+               /*  border: 3px solid rgb(17, 255, 0);   */
             }
-                    .caja_1 p{
+                    .caja1_b a{
+                      width: 20%;
+                      height: 20%; 
+                      text-align: end;
+                      /* border: 3px solid rgb(17, 255, 0);   */
                          color: white;
                          font-family: 'Raleway', sans-serif; 
                          margin: 6%;
@@ -91,16 +96,16 @@ font-family: 'Raleway', sans-serif; */
        .caja_2{/* inferior: menú y título */
         width: 100%;
         height: 75%;
-        /* border: 3px solid rgb(255, 0, 153);  */
+       /*  border: 3px solid rgb(255, 0, 153);  */
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
        }
             .menu{
-                width: 32%;
+                width: 35%;
                 height: 100%;
-                /* border: 3px solid rgb(212, 136, 182);  */
+               /*  border: 3px solid rgb(212, 136, 182); */  
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -109,7 +114,7 @@ font-family: 'Raleway', sans-serif; */
                   .recuadro{
                     /* width: 60%;
                     height: 40%; */
-                    width: 270px;
+                    width: 240px;
                     height: 255px; 
                     margin-top: 3%;
                     border: 3px solid rgb(255, 255, 255);
@@ -120,7 +125,7 @@ font-family: 'Raleway', sans-serif; */
                   }
                   .menu h4{/* home/about us/solutions... */
                     font-family: 'Raleway',thin,sans-serif;
-                    font-weight: 400;
+                    font-weight: 300;
                     color: white;
                     font-size: 1.3rem;
                     margin: 3%;
@@ -147,7 +152,7 @@ font-family: 'Raleway', sans-serif; */
                   }
     
             .title{
-                width: 68%;
+                width: 65%;
                 height: 100%;
                /*  border: 3px solid rgb(10, 235, 156); */
                 display: flex;
@@ -159,7 +164,7 @@ font-family: 'Raleway', sans-serif; */
                  .title h1{
                     font-family: 'Raleway', thin, sans-serif; 
                     font-size: 5.5rem;
-                    font-weight: 400;
+                    font-weight: 300;
                     letter-spacing: 7px;
                     color: white;
                     text-decoration: none;
@@ -172,17 +177,20 @@ font-family: 'Raleway', sans-serif; */
                     letter-spacing: 2px;
                     color: white;
                     text-decoration: none;
-                    margin-left: 9%;
+                    /* margin-left: 9%; */
         
                  }
 /* --------------------------------------------------- */
 /* CONTENIDO */
  /* --------------------------------------------------- */
+ 
+ /* voy a intentar arreglar esto */
+ 
  .contenido{
-    /* border: 8px solid rgb(212, 136, 182); */
+   /*  border: 8px solid rgb(212, 136, 182); */
     display: flex;
     width: 100%;
-    height: 200vmin;/*  */
+    height: 90vmax;/*  */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -190,47 +198,54 @@ font-family: 'Raleway', sans-serif; */
  }    
      .encabezado{
         width: 80%;
-        height: 40%;/*  */
+      /*  height: 35%; */
+
+        margin-top: 5%;/* esto */
+        margin-bottom: 5%;
+
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
-        /* border: 3px solid rgb(239, 10, 10);  */ 
+       /*  border: 3px solid rgb(239, 10, 10);  */ 
      }
           .encabezado h1{
-            width: 100%;
-            height: 45%;
+            /* width: 100%;
+            height: 45%; */
             /* border: 3px solid rgb(136, 212, 201); */
             color: #000;
-            font-size: 55px;
+            font-size: 50px;
             font-family: 'Raleway', thin, sans-serif; 
             font-style: normal;
             font-weight: 400;
             line-height: normal;
-            display: flex;
+           /*  display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: center; */
 
           }
           .encabezado h2{
-            width: 100%;
-            height: 13%;
-            /* border: 3px solid rgb(149, 212, 136); */
+            /* width: 100%;
+            height: 10%; */
+           /*  border: 3px solid rgb(149, 212, 136);  */ 
             color: #000;
-            font-size: 45px;
+            font-size: 42px;
             font-family: 'Raleway', thin, sans-serif; 
             font-style: normal;
             font-weight: 600;
             line-height: normal;
-            display: flex;
+            text-align: right;
+            margin: 2%;
+           /*  display: flex;
+            flex-direction: row;
             justify-content: right;
-            align-items: center;
-
+            align-items: right;
+   */
           }
           .encabezado h4{
-            width: 100%;
-            height: 42%;
-           /*  border: 3px solid rgb(166, 136, 212);  */
+            /* width: 100%;
+            height: 45%; */
+            /* border: 3px solid rgb(166, 136, 212);  */
             font-family: 'Raleway', thin, sans-serif; 
             color: #000;
             font-size: 22px;
@@ -239,17 +254,21 @@ font-family: 'Raleway', sans-serif; */
             line-height: normal;
             display: flex;
             align-items: center;
+
            
           }
 
     .linea{
       width: 80%;
-      border-bottom: 5px solid rgb(0, 0, 0);/* BOTTON */
+      border-bottom: 3px solid rgb(0, 0, 0);/* BOTTON */
     }
 
     .segundo_encabezado{
         width: 80%;
-        height: 60%;
+        height: 60%; 
+        margin-top: 5%;/* esto */
+        margin-bottom: 5%;
+
         display: flex;
         justify-content: top;
         flex-direction: column;
@@ -259,20 +278,25 @@ font-family: 'Raleway', sans-serif; */
     .segundo_encabezado h1{
         /* border: 3px solid rgb(222, 237, 192);  */
         width: 100%;
-        height: 30%;
+        /*  height: 25%;  */
+       margin-bottom: 5%;
         color: #000;
-        font-size: 35px;
+        font-size: 30px;
         font-family: 'Raleway', thin, sans-serif; 
         font-style: normal;
         font-weight: 600;
         line-height: normal;
         display: flex;
         align-items: center;
+    }/* ------------ES------------- */
+    #segundo_encabezado_es h1{
+      font-size: 30px;
+
     }
         .caja{
             border: 3px solid rgb(0, 0, 0); 
             width: 100%;
-            height: 65%;
+            height: 90%;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -289,7 +313,7 @@ font-family: 'Raleway', sans-serif; */
 
           }
           .caja_derecha{
-            border-left: 1px solid rgb(0, 0, 0);
+           /*  border-left: 1px solid rgb(0, 0, 0); */
             width: 50%;
             height: 100%;
             display: flex;
@@ -299,9 +323,9 @@ font-family: 'Raleway', sans-serif; */
 
           }
             .caja_texto{
-                border-bottom: 1px solid rgb(0, 0, 0); 
+                border-bottom: 0.5px solid rgb(0, 0, 0); 
                 width: 100%;
-                height: 14.1%;
+                height: 14.4%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -309,10 +333,10 @@ font-family: 'Raleway', sans-serif; */
 
             }
                 .caja_texto h2{
-                    width: 95%;
+                    width: 80%;
                     height: 40%;
 
-                    font-size: 18px;
+                    font-size: 17px;
                     font-family: 'Raleway', thin, sans-serif; 
                     font-style: normal;
                     font-weight: 600;
@@ -323,6 +347,9 @@ font-family: 'Raleway', sans-serif; */
                     align-items: center;
                     text-align: center;
                     
+                }
+                #ultima{
+                  border-bottom: none; 
                 }
 
  /* --------------------------------------------------- */
@@ -353,7 +380,7 @@ footer{
         }
               .linkedin img{
                   width: auto;
-                  height: 95%;
+                  height: 70%;
               }
         .twitter{
           width: auto;
@@ -362,7 +389,7 @@ footer{
         }
                .twitter img{
                    width: auto;
-                   height: 95%;
+                   height: 70%;
 
                 }
 
@@ -373,10 +400,10 @@ footer{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-      /*   border: 3px solid rgb(169, 15, 177); */
+      /* border: 3px solid rgb(169, 15, 177);  */
     }
        #b{
-        height: 90%;
+        height: 95%;
        }
     .copys{
         width: 80%;
@@ -397,7 +424,21 @@ footer{
 /* ------------------------------------------------------------------------- */
     /* RESPONSIVE WEB DESIGN */
 /* ------------------------------------------------------------------------- */
-/* ipad pro 1024/1366 */
+@media(max-width:1250px){/* AUTO AQUÍ */
+  .contenido{
+    height: 120vmax;/* TOCO AQUÍ */
+    
+
+ } 
+
+        .caja_texto h2{
+      
+            font-size: 16px;
+            
+        }
+   /* ----------------AQUI-------------------------- */
+}
+
 
     @media(max-width:1080px){/* AUTO AQUÍ */
         body{
@@ -440,7 +481,7 @@ footer{
             /* --------------------- */
             /* CONTENIDO / ENCABEZADO */
             .contenido{
-              height: 200vmax;/*  */
+              height: 150vmax;/* TOCO AQUÍ */
               
           
            } 
@@ -463,6 +504,10 @@ footer{
               font-size: 35px;
             
             }
+            #segundo_encabezado_es h1{
+              font-size: 25px;
+        
+            }
                       .caja_texto h2{
                         font-size: 16px;
                           
@@ -470,10 +515,10 @@ footer{
     }   
 /* ---------------------------------------------------------- */
  @media(max-width:900px){
-  .contenido{
-    height: 140vmax;/* ASÍ -----------------------------------*/
+ /* .contenido{
+    height: 110vmax;
 
- }
+ } */ 
   
               .title{
                   width: 60%;
@@ -506,6 +551,10 @@ footer{
                   .segundo_encabezado h1{
                     font-size: 28px;
                   }
+                  #segundo_encabezado_es h1{
+                    font-size: 22px;
+              
+                  }
                   .caja_texto h2{
                     font-size: 14px;
                     
@@ -532,6 +581,10 @@ footer{
        font-size: 2rem;
      }
  /* -------------CONTENIDO--------------- */
+/*  .contenido{
+  height: 220vmin;
+
+} */
  .encabezado h1{
   font-size: 36px;
 }
@@ -545,6 +598,10 @@ footer{
 }
 .segundo_encabezado h1{
   font-size: 26px;
+}
+#segundo_encabezado_es h1{
+  font-size: 20px;
+
 }
 .caja_texto h2{
   font-size: 14px;
@@ -608,6 +665,10 @@ footer{
     font-size: 24px;
 
   }
+  #segundo_encabezado_es h1{
+    font-size: 18px;
+
+  }
   .caja_texto h2{
     font-size: 10px;
   }
@@ -618,10 +679,10 @@ footer{
     body{
       height: auto;
     }
-    .contenido{
-      height: 140vmax;/* -----------------------------------*/
+    /* .contenido{
+      height: 140vmax;
   
-    }
+    } */
     .title h1{
       font-size: 2.5rem;
     }
@@ -757,15 +818,16 @@ footer{
       }
       /* --------contenido-------- */
       .encabezado h1{
-        height: 40%;
+        /* height: 40%; */
         font-size: 28px;
        }
       .encabezado h2{
-        height: 10%;
+        /* height: 10%; */
         font-size: 24px;
+       /*  margin: 0%; */
       }
       .encabezado h4{
-        height: 50%;
+       /*  height: 50%; */
         font-size: 15px;
       }
   }
@@ -812,6 +874,9 @@ footer{
           
           
           }
+          #segundo_encabezado_es h1 {
+            font-size: 25px;
+        }
      }
 /* --------- */
 @media(max-width:535px){
