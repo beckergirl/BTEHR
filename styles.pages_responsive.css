@@ -55,7 +55,7 @@ margin: 2%;
 /*     border: 5px solid rgb(255, 208, 0); */
   }
 #sobre_nosotros{
-  background-image: url(about_us_movil.jpeg);
+  background-image: url(img/portadas/portadas_movil/about_us_movil.jpeg);
   background-size: cover;
 
 }
@@ -77,7 +77,7 @@ margin: 2%;
         justify-content: center;
         align-items: center; 
         /* border: 3px solid rgb(4, 0, 255);   */
-        background-image: url(LOGO\ BTEHR\ blanco.png);
+        background-image: url(img/logos/LOGO\ BTEHR\ blanco.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 45%;

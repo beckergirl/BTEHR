@@ -112,22 +112,22 @@ font-family: 'Raleway', sans-serif; */
  }
 /* ---- DISTINTAS PORTADAS DE CADA PÁGINA ---- */
 #contacto{
-  background-image: url(contact.png);/* CONTACT */
+  background-image: url(img/portadas/contact.png);/* CONTACT */
   background-size: cover;
    
 }
 #sobre_nosotros{
-  background-image: url(about_us.png);/* ABOUT US */
+  background-image: url(img/portadas/about_us.png);/* ABOUT US */
   background-size: cover;
 
 }
 #soluciones{
-  background-image: url(solutions.png);/* SOLUTIONS */
+  background-image: url(img/portadas/solutions.png);/* SOLUTIONS */
   background-size: cover;
 
 }
 #documentacion{
-  background-image: url(documents.png);/* DOCUMENTS */
+  background-image: url(img/portadas/documents.png);/* DOCUMENTS */
   background-size: cover;
 
 }

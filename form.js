@@ -1,4 +1,4 @@
-/* formulario */ /* FUNCIONA PREFECTAMENT */
+/* formulario */ /*  */
 
 const btn = document.getElementById('button');
 
@@ -6,17 +6,17 @@ document.getElementById('form')
  .addEventListener('submit', function(event) {
    event.preventDefault();
 
-   btn.value = 'SENDING...';
+   btn.value = 'Sending...';
 
    const serviceID = 'default_service';
    const templateID = 'template_vf3d2tj';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      btn.value = 'SUBMIT MESSAGE';
-      alert('SENT!');
+      btn.value = 'Send Email';
+      alert('Sent!');
     }, (err) => {
-      btn.value = 'SUBMIT MESSAGE';
+      btn.value = 'Send Email';
       alert(JSON.stringify(err));
     });
 });
